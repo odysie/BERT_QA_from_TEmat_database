@@ -1,0 +1,5 @@
+T1	ZT 486 488	zT
+T2	Value 492 496	1.91
+E1	Value:T2 temp:T3 cem:T4 spec:T1
+T3	temperature 500 505	740 K
+T4	CEM 537 549	Ge0.9Bi0.1Te

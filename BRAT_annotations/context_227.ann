@@ -1,0 +1,8 @@
+T1	temperature 419 424	300 K
+T2	ZT 426 428	ZT
+T3	Value 431 436	0.020
+E1	Value:T3 spec:T2 temp:T1 cem:T5
+T4	Value 441 446	0.025
+E2	Value:T4 cem:T6 spec:T2 temp:T1
+T5	CEM 451 456	CrSi2
+T6	CEM 461 485	Cr0.90Mn0.10Si1.90Al0.10

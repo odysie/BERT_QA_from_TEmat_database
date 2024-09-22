@@ -1,0 +1,1 @@
+As may be seen in Fig. 5c, PbBr2-doped SnSe samples exhibit much higher power factors than pristine SnSe0.95 due to the significantly increased electrical conductivity. In the whole measured temperature range, the power factor of doped SnSe roughly increases with temperature. The observed highest power factor is 4.8 μW cm−1 K−2 in SnSe0.95–3% PbBr2 at 793 K.

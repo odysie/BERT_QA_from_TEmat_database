@@ -1,0 +1,5 @@
+T1	CEM 271 286	Cu1.95Pb0.015Se
+T2	ZT 308 310	ZT
+T3	Value 320 324	1.52
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 328 333	973 K

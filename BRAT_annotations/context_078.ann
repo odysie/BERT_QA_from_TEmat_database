@@ -1,0 +1,13 @@
+T1	CEM 82 86	MoS2
+T2	temperature 123 139	room temperature
+T3	ElecCond 140 152	conductivity
+T4	Value 156 167	0.0012 Ω/cm
+E1	Value:T4 spec:T3 temp:T2 cem:T1
+T5	CEM 335 340	MoSe2
+T6	Seebeck 385 404	Seebeck coefficient
+T7	ElecCond 409 420	resistivity
+T8	Value 434 443	−900 μV/K
+E2	Value:T8 temp:T10 spec:T6 cem:T5
+T9	Value 448 456	1.0 Ω/cm
+E3	Value:T9 temp:T10 spec:T7 cem:T5
+T10	temperature 460 476	room temperature

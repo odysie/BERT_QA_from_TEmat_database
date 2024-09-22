@@ -1,0 +1,7 @@
+T1	PF 1434 1436	PF
+T2	PF 1426 1436	Maximum PF
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 1440 1451	2.3 μW/K2cm
+E1	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 1455 1460	600 K
+T5	CEM 1485 1499	Cu1.97Ga0.03Te

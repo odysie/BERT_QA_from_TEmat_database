@@ -1,0 +1,14 @@
+T1	CEM 22 25	NbO
+T2	Seebeck 90 110	thermoelectric power
+T3	Value 112 122	10–15 μV/K
+E1	Value:T3 spec:T2 temp:T4 cem:T1
+T4	temperature 126 133	1,000 K
+T5	ElecCond 139 162	electrical conductivity
+T6	Value 169 174	1 S/m
+E2	Value:T6 temp:T7 spec:T5 cem:T1
+T7	temperature 176 183	1,000 K
+T8	Seebeck 406 426	Seebeck coefficients
+T9	Value 440 457	-100 to -500 μV/K
+E3	Value:T9 temp:T10 cem:T11 spec:T8
+T10	temperature 459 466	1,000 K
+T11	CEM 472 477	Nb2O5

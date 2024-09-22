@@ -1,0 +1,23 @@
+T1	CEM 295 303	Ag9TlTe5
+T2	ElecCond 410 421	resistivity
+T3	ElecCond 269 291	electrical resistivity
+R1	synospec Arg1:T3 Arg2:T2	
+T4	temperature 431 436	700 K
+T5	Value 440 457	2.63 × 10−2 Ω-cm,
+E1	Value:T5 temp:T4 spec:T2 cem:T1
+T6	Seebeck 715 734	Seebeck coefficient
+T7	CEM 744 752	Ag9TlTe5
+T8	temperature 756 761	700 K
+T9	Value 765 773	319 μV/K
+E2	Value:T9 temp:T8 cem:T7 spec:T6
+T10	PF 804 816	power factor
+T11	PF 796 816	maximum power factor
+R2	synospec Arg1:T11 Arg2:T10	
+T12	Value 820 832	3.87 μW/cmK2
+E3	Value:T12 spec:T10 temp:T13 cem:T7
+T13	temperature 849 854	700 K
+T14	CEM 953 961	Ag9TlTe5
+T15	ZT 983 985	ZT
+T16	Value 995 999	1.23
+E4	Value:T16 temp:T17 spec:T15 cem:T14
+T17	temperature 1009 1014	700 K

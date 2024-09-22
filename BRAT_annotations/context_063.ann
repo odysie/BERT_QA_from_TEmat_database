@@ -1,0 +1,11 @@
+T1	ThermCond 898 926	lattice thermal conductivity
+T2	CEM 930 936	GaGeTe
+T3	Value 946 957	58 Wm-1 K−1
+E1	Value:T3 cem:T2 spec:T1 temp:T4
+T4	temperature 1089 1105	room temperature
+T5	CEM 990 994	MoS2
+T6	Value 1003 1013	52 Wm−1K−1
+E2	Value:T6 temp:T4 cem:T5 spec:T1
+T7	Value 1072 1084	2000 Wm−1K−1
+E3	Value:T7 cem:T8 temp:T4 spec:T1
+T8	CEM 1062 1070	graphene

@@ -1,0 +1,13 @@
+T1	temperature 379 395	room temperature
+T2	ThermCond 396 416	thermal conductivity
+T3	Value 420 434	1.88 W m−1 K−1
+E1	Value:T3 cem:T4 spec:T2 temp:T1
+T4	CEM 438 446	SnSe0.95
+T5	Value 468 482	1.23 W m−1 K−1
+E2	Value:T5 cem:T6 spec:T2 temp:T1
+T6	CEM 486 503	SnSe0.95–3% PbBr2
+T7	CEM 669 686	SnSe0.95–2% PbBr2
+T8	temperature 690 695	793 K
+T9	Value 652 665	0.6 W m−1 K−1
+E3	Value:T9 spec:T10 cem:T7 temp:T8
+T10	ThermCond 541 561	thermal conductivity

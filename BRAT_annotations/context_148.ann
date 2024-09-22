@@ -1,0 +1,5 @@
+T1	Seebeck 482 483	S
+T2	temperature 487 492	290 K
+T3	Value 496 503	40 μV/K
+E1	Value:T3 cem:T4 temp:T2 spec:T1
+T4	CEM 507 523	La1.85Sr0.15CuO4

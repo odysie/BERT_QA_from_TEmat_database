@@ -1,0 +1,11 @@
+T1	Seebeck 508 527	Seebeck coefficient
+T2	Value 529 537	100 μV/K
+E1	Value:T2 temp:T3 spec:T1 cem:T7
+T3	temperature 541 546	300 K
+T4	ElecCond 558 569	resistivity
+T5	Value 571 580	200 μΩ cm
+E2	Value:T5 temp:T6 spec:T4 cem:T7
+T6	temperature 584 589	300 K
+T7	CEM 595 602	NaCo2O4
+T8	CEM 595 617	NaCo2O4 single crystal
+R1	synonym Arg1:T7 Arg2:T8	

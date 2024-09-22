@@ -1,0 +1,30 @@
+T1	CEM 144 147	C60
+T2	CEM 129 147	single crystal C60
+R1	synonym Arg1:T2 Arg2:T1	
+T3	Value 250 263	0.4 W m-1 K-1
+E1	Value:T3 temp:T4 spec:T5 cem:T2
+T4	temperature 310 315	260 K
+T5	ThermCond 105 125	Thermal conductivity
+T6	ThermCond 363 383	thermal conductivity
+T7	CEM 389 404	C60/C70 compact
+T8	CEM 389 396	C60/C70
+R2	synonym Arg1:T8 Arg2:T7	
+T9	Value 428 441	0.1 W m-1 K-1
+E2	Value:T9 temp:T10 cem:T7 spec:T6
+T10	temperature 445 461	room temperature
+T11	CEM 636 672	phenyl-C61-butyric acid methyl ester
+T12	ThermCond 612 632	thermal conductivity
+T13	CEM 674 678	PCBM
+T14	CEM 636 679	phenyl-C61-butyric acid methyl ester (PCBM)
+R3	synonym Arg1:T11 Arg2:T14	
+R4	synonym Arg1:T14 Arg2:T13	
+T15	Value 768 789	0.03 ~ 0.06 W m-1 K-1
+E3	Value:T15 temp:T16 spec:T12 cem:T13
+T16	temperature 793 809	room temperature
+T17	CEM 1136 1139	C60
+T18	CEM 1125 1139	disordered C60
+R5	synonym Arg1:T18 Arg2:T17	
+T19	Value 1150 1163	0.1 W m-1 K-1
+E4	Value:T19 temp:T20 cem:T17 spec:T21
+T20	temperature 1167 1183	room temperature
+T21	ThermCond 1101 1121	thermal conductivity

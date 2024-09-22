@@ -1,0 +1,17 @@
+T1	temperature 213 229	room temperature
+T2	ThermCond 235 255	thermal conductivity
+T3	CEM 259 263	SnSe
+T4	Value 267 279	~1.5 W m-1 K
+E1	Value:T4 cem:T3 spec:T2 temp:T1
+T5	ThermCond 367 387	thermal conductivity
+T6	Value 406 418	~0.5 W m-1 K
+E2	Value:T6 temp:T7 cem:T8 spec:T5
+T7	temperature 422 427	793 K
+T8	CEM 431 445	Sn0.98Ag0.04Se
+T9	ZT 660 662	ZT
+T10	ZT 652 662	highest ZT
+R1	synospec Arg1:T10 Arg2:T9	
+T11	CEM 666 680	Sn0.99Ag0.02Se
+T12	Value 701 704	0.9
+E3	Value:T12 temp:T13 cem:T11 spec:T9
+T13	temperature 708 713	793 K

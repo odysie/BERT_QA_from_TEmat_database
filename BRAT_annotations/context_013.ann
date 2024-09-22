@@ -1,0 +1,5 @@
+T1	Seebeck 1336 1355	Seebeck coefficient
+T2	CEM 1359 1367	β-Zn4Sb3
+T3	Value 1396 1404	100 μV/K
+E1	Value:T3 cem:T2 spec:T1 temp:T4
+T4	temperature 1408 1424	room temperature

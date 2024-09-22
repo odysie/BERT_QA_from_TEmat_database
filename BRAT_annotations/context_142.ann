@@ -1,0 +1,5 @@
+T1	CEM 169 187	(Bi0.25Sb0.75)2Te3
+T2	Value 138 142	1.86
+E1	Value:T2 temp:T4 spec:T3 cem:T1
+T3	ZT 134 136	zT
+T4	temperature 146 151	320 K

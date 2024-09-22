@@ -1,0 +1,24 @@
+T1	CEM 201 234	CaMn1 − xRuxO3 and CaMn1 − yMoyO3
+T2	CEM 201 242	CaMn1 − xRuxO3 and CaMn1 − yMoyO3 systems
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ElecCond 264 277	resistivities
+T4	ElecCond 279 280	ρ
+T5	ElecCond 260 277	low resistivities
+R2	synospec Arg1:T5 Arg2:T3	
+R3	synospec Arg1:T5 Arg2:T4	
+T6	Value 281 292	< 0.03 Ω cm
+E1	Value:T6 spec:T4 temp:T11 cem:T1
+T7	Seebeck 307 334	absolute thermopower values
+T8	Seebeck 316 327	thermopower
+T9	Seebeck 307 326	absolute thermopowe
+T10	Seebeck 316 334	thermopower values
+R4	synospec Arg1:T8 Arg2:T9	
+R5	synospec Arg1:T9 Arg2:T7	
+R6	synospec Arg1:T7 Arg2:T10	
+T11	temperature 338 354	room temperature
+T12	Seebeck 356 375	Seebeck coefficient
+T13	Seebeck 376 377	S
+T14	Value 378 388	> 100 μV/K
+E2	Value:T14 spec:T13 temp:T11 cem:T2
+R7	synospec Arg1:T13 Arg2:T12	
+R8	synospec Arg1:T12 Arg2:T10	

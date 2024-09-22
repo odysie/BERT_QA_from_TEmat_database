@@ -1,0 +1,12 @@
+T1	ElecCond 878 901	electrical conductivity
+T2	CEM 909 919	CoCp2@SWNT
+T3	CEM 909 924	CoCp2@SWNT film
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 962 974	43,200 S m-1
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 978 983	320 K
+T6	Value 1003 1014	4,450 S m-1
+E2	Value:T6 cem:T7 temp:T5 spec:T1
+T7	CEM 1023 1034	empty SWNTs
+T8	CEM 1029 1034	SWNTs
+R2	synonym Arg1:T7 Arg2:T8	

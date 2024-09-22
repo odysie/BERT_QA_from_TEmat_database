@@ -1,0 +1,31 @@
+T1	CEM 579 584	Ag2Te
+T2	CEM 579 590	Ag2Te films
+T3	CEM 572 584	n-type Ag2Te
+T4	CEM 572 590	n-type Ag2Te films
+T5	CEM 563 590	flexible n-type Ag2Te films
+R1	synonym Arg1:T5 Arg2:T4	
+R2	synonym Arg1:T5 Arg2:T3	
+R3	synonym Arg1:T3 Arg2:T2	
+R4	synonym Arg1:T5 Arg2:T1	
+T6	PF 613 625	power factor
+T7	Value 642 655	85 μW m-1 K-2
+E1	Value:T7 temp:T8 spec:T6 cem:T2
+T8	temperature 659 664	300 K
+T9	CEM 694 698	HgSe
+T10	CEM 687 698	n-type HgSe
+T11	CEM 694 720	HgSe nanocrystal thin film
+T12	CEM 687 720	n-type HgSe nanocrystal thin film
+R5	synonym Arg1:T12 Arg2:T11	
+R6	synonym Arg1:T12 Arg2:T9	
+R7	synonym Arg1:T10 Arg2:T9	
+T13	PF 817 829	power factor
+T14	PF 809 829	maximum power factor
+R8	synospec Arg1:T14 Arg2:T13	
+T15	Value 833 847	550 μW m-1 K-2
+E2	Value:T15 temp:T16 spec:T13 cem:T11
+T16	temperature 851 856	300 K
+T17	CEM 879 924	Bi2Te3 thick film on a cellulose fibers paper
+T18	PF 1029 1041	power factor
+T19	Value 1045 1060	~250 μW m-1 K-2
+E3	Value:T19 temp:T20 spec:T18 cem:T17
+T20	temperature 1064 1080	room temperature

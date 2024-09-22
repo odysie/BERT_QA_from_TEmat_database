@@ -1,0 +1,11 @@
+T1	temperature 1896 1912	room-temperature
+T2	PF 1913 1925	power factor
+T3	Value 1929 1944	~45 μW cm-1 K-2
+E1	Value:T3 cem:T4 spec:T2 temp:T1
+T4	CEM 1949 1965	Ta0.84Ti0.16FeSb
+T5	PF 2060 2072	power factor
+T6	PF 2052 2072	average power factor
+R1	synospec Arg1:T6 Arg2:T5	
+T7	Value 2076 2090	~52 μW cm-1K-2
+E2	Value:T7 temp:T8 spec:T5 cem:T4
+T8	temperature 2116 2137	between 300 and 973 K

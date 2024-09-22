@@ -1,0 +1,5 @@
+T1	ZT 66 68	ZT
+T2	Value 72 77	~ 0.9
+E1	Value:T2 spec:T1 cem:T3 temp:T4
+T3	CEM 95 109	Pb0.99Sb0.01Se
+T4	temperature 113 118	873 K

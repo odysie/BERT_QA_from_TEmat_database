@@ -1,0 +1,1 @@
+The power factors ((c)) show maximum values at 325 K for all samples, ranging from 1.62 to 1.82 mW m−1 K−2 in the perpendicular direction, which are considerably lower than the ones obtained in the parallel direction, owing to higher cross-plane electrical resistivity. The highest power factor of 1.82 mW m−1 K−2 is obtained in Bi1.99Cr0.01Te3 at 325 K.

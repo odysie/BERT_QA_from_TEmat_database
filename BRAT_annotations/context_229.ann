@@ -1,0 +1,7 @@
+T1	ZT 146 148	ZT
+T2	Value 152 157	0.025
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 173 178	723 K
+T4	CEM 206 216	SnSe:Bi 6%
+T5	CEM 206 223	SnSe:Bi 6% sample
+R1	synonym Arg1:T4 Arg2:T5	

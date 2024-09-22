@@ -1,0 +1,20 @@
+T1	CEM 648 667	Ba5.19Nd8.54Ti18O54
+T2	Seebeck 681 700	Seebeck coefficient
+T4	Seebeck 704 705	S
+R1	synospec Arg1:T2 Arg2:T4	
+T5	Value 713 721	210 µV/K
+E1	Value:T5 spec:T2 cem:T1 temp:T16
+T6	ElecCond 734 746	conductivity
+T7	ElecCond 750 751	σ
+R2	synospec Arg1:T6 Arg2:T7	
+T9	Value 759 766	60 S/cm
+E2	Value:T9 spec:T7 cem:T1 temp:T16
+T10	ThermCond 772 792	thermal conductivity
+T11	ThermCond 796 797	k
+R3	synospec Arg1:T10 Arg2:T11	
+T13	Value 805 817	1.45 W/(m K)
+E3	Value:T13 temp:T16 cem:T1 spec:T11
+T14	ZT 832 834	ZT
+T15	Value 844 848	0.16
+E4	Value:T15 spec:T14 temp:T16 cem:T1
+T16	temperature 852 858	1000 K

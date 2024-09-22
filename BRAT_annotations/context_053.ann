@@ -1,0 +1,7 @@
+T1	ZT 28 30	ZT
+T2	Value 40 45	∼0.55
+E1	Value:T2 spec:T1 cem:T5 temp:T4
+T3	CEM 66 82	Mn0.925Cu0.075Te
+T4	temperature 93 98	773 K
+T5	CEM 66 89	Mn0.925Cu0.075Te sample
+R1	synonym Arg1:T3 Arg2:T5	

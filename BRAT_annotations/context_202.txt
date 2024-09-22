@@ -1,0 +1,2 @@
+Abstract:
+Polycrystalline samples of Ca1-xBixMnyO3-δ (x = 0.00, 0.02, and 0.05) are prepared by the conventional solid-state reactions. Thermoelectric properties are measured at 300 K–700 K. All the samples are single phase with an orthorhombic structure. Thermopower of all the samples is negative, indicating that predominant carriers are electrons over the entire temperature range. Among the samples, Ca2.95Bi0.05MnO3-δ has the highest dimensionless figure of merit of 0.047 at 300 K, representing an improvement of about 487 % with respect to the parent compound of CaMnO3-δ.

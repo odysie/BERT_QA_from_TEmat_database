@@ -1,0 +1,13 @@
+T1	CEM 575 595	highly doped Bi2Te2S
+T2	CEM 575 605	highly doped Bi2Te2S materials
+R1	synonym Arg1:T1 Arg2:T2	
+T3	temperature 565 570	413 K
+T4	Value 557 561	~1.2
+E1	Value:T4 temp:T3 cem:T1 spec:T5
+T5	ZT 551 553	ZT
+T7	ThermCond 500 528	lattice thermal conductivity
+T6	Value 532 543	~0.53 W/m.K
+E2	Value:T6 temp:T3 cem:T1 spec:T7
+T8	Seebeck 459 478	Seebeck coefficient
+T9	Value 482 491	~240 μV/K
+E3	Value:T9 cem:T1 temp:T3 spec:T8

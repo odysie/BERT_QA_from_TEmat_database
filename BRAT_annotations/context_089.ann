@@ -1,0 +1,8 @@
+T1	Seebeck 467 468	S
+T3	CEM 478 508	Sb-substituted BSO (Sb: 10 mM)
+T4	Value 513 522	58.9 μV/K
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 526 531	820 K
+T6	CEM 563 592	Sb-substituted BSO (Sb: 5 mM)
+T2	Value 593 602	56.4 μV/K
+E2	Value:T2 cem:T6 temp:T5 spec:T1

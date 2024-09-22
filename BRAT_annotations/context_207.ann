@@ -1,0 +1,7 @@
+T1	ZT 389 391	ZT
+T2	Value 395 398	0.6
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 402 407	873 K
+T4	CEM 411 430	polycrystalline SnS
+T5	CEM 427 430	SnS
+R1	synonym Arg1:T4 Arg2:T5	

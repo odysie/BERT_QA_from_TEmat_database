@@ -1,0 +1,11 @@
+T1	PF 158 170	power factor
+T2	CEM 181 185	SnSe
+T3	CEM 174 185	p-type SnSe
+T4	CEM 174 196	p-type SnSe thin films
+T5	CEM 181 196	SnSe thin films
+R1	synonym Arg1:T3 Arg2:T2	
+R2	synonym Arg1:T2 Arg2:T4	
+R3	synonym Arg1:T4 Arg2:T5	
+T6	Value 205 220	4.27 μWcm-1 K-2
+E1	Value:T6 temp:T7 cem:T5 spec:T1
+T7	temperature 224 229	550 K

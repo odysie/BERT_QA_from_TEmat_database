@@ -1,0 +1,18 @@
+T1	ZT 227 229	ZT
+T2	Value 234 242	∼2.5–2.7
+E1	Value:T2 spec:T1 cem:T4 temp:T3
+T4	CEM 14 18	SnSe
+T5	CEM 0 12	Tin selenide
+T6	CEM 0 19	Tin selenide (SnSe)
+R1	synonym Arg1:T5 Arg2:T6	
+R2	synonym Arg1:T6 Arg2:T4	
+T3	temperature 253 258	800 K
+T7	ThermCond 827 855	lattice thermal conductivity
+T8	Value 859 873	∼0.11 W m−1K−1
+E2	Value:T8 spec:T7 cem:T9 temp:T13
+T9	CEM 877 938	polycrystalline hole-doped SnSe alloyed with 5% lead selenide
+T10	CEM 893 938	hole-doped SnSe alloyed with 5% lead selenide
+T11	ZT 996 998	ZT
+T12	Value 1002 1006	∼2.5
+E3	Value:T12 temp:T13 spec:T11 cem:T10
+T13	temperature 1010 1015	773 K

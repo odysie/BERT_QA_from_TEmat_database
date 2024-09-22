@@ -1,0 +1,7 @@
+T1	CEM 280 299	In-Hg co-doped SnTe
+T2	CEM 280 337	In-Hg co-doped SnTe, synthesized by a hot pressing method
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Value 436 444	50 μVK−1
+E1	Value:T3 temp:T5 spec:T4 cem:T2
+T4	Seebeck 363 383	Seebeck coefficients
+T5	temperature 453 469	room temperature

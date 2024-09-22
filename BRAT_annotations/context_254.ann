@@ -1,0 +1,12 @@
+T1	ThermCond 561 581	thermal conductivity
+T2	Value 635 649	0.36 W m-1 K-1
+E1	Value:T2 temp:T3 spec:T1 cem:T4
+T3	temperature 653 658	823 K
+T4	CEM 679 690	SnS0.5Se0.5
+T5	CEM 976 987	SnS0.2Se0.8
+T6	temperature 966 971	823 K
+T7	Value 958 962	0.64
+E2	Value:T7 spec:T8 temp:T6 cem:T5
+T8	ZT 946 948	ZT
+T9	ZT 938 948	maximum ZT
+R1	synospec Arg1:T9 Arg2:T8	

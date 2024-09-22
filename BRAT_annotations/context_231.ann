@@ -1,0 +1,9 @@
+T1	Seebeck 1647 1648	S
+T2	Seebeck 1642 1648	peak S
+R1	synospec Arg1:T2 Arg2:T1	
+T3	CEM 1667 1672	Cu2Te
+T4	CEM 1658 1672	pristine Cu2Te
+R2	synonym Arg1:T4 Arg2:T3	
+T5	temperature 1676 1681	745 K
+T6	Value 1683 1690	50 μV/K
+E1	Value:T6 temp:T5 cem:T3 spec:T1

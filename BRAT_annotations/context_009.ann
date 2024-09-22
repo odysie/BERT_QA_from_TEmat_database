@@ -1,0 +1,19 @@
+T1	Value 196 208	290 μWm−1K−2
+E1	Value:T1 temp:T2 cem:T4 spec:T5
+T2	temperature 212 217	798 K
+T3	CEM 134 145	undoped SnS
+T4	CEM 142 146	SnSe
+R1	synonym Arg1:T3 Arg2:T4	
+T5	PF 118 130	power factor
+T6	PF 231 243	power factor
+T7	Value 253 265	470 μWm−1K−2
+E2	Value:T7 spec:T6 cem:T8 temp:T9
+T8	CEM 281 295	Na0.02Sn0.98Se
+T9	temperature 299 304	798 K
+T10	PF 431 443	power factor
+T11	CEM 451 491	high pressure synthesized Na0.02Sn0.98Se
+T12	CEM 477 491	Na0.02Sn0.98Se
+R2	synonym Arg1:T12 Arg2:T11	
+T13	Value 527 540	>300 μWm−1K−2
+E3	Value:T13 temp:T14 spec:T10 cem:T12
+T14	temperature 562 579	higher than 500 K

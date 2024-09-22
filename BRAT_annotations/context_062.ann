@@ -1,0 +1,27 @@
+T1	ElecCond 459 482	electrical conductivity
+T2	Value 489 498	34 S cm−1
+E1	Value:T2 cem:T4 temp:T7 spec:T1
+T3	CEM 503 519	pristine BiCuSeO
+T4	CEM 512 519	BiCuSeO
+T5	Value 523 532	79 S cm−1
+E2	Value:T5 cem:T6 temp:T7 spec:T1
+T6	CEM 545 562	Bi0.94Sm0.06CuSeO
+T7	temperature 566 571	873 K
+T8	Seebeck 596 615	Seebeck coefficient
+T9	Seebeck 590 615	large Seebeck coefficient
+T10	ThermCond 647 667	thermal conductivity
+T11	Value 669 681	0.58 Wm−1K−1
+E3	Value:T11 spec:T10 temp:T21 cem:T20
+T12	Value 617 626	251 μVK−1
+E4	Value:T12 temp:T21 cem:T20 spec:T8
+T13	ZT 688 703	figure of merit
+T14	ZT 704 706	ZT
+T15	ZT 688 706	figure of merit ZT
+T16	Value 739 743	0.49
+E5	Value:T16 cem:T18 temp:T21 spec:T15
+T17	CEM 748 764	pristine BiCuSeO
+T18	CEM 757 764	BiCuSeO
+T19	Value 768 772	0.74
+E6	Value:T19 cem:T20 temp:T21 spec:T13
+T20	CEM 777 794	Bi0.94Sm0.06CuSeO
+T21	temperature 798 803	873 K

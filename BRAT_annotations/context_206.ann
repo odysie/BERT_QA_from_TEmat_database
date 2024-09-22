@@ -1,0 +1,11 @@
+T1	CEM 621 649	PSVA-treated PEDOT:PSS films
+T2	CEM 634 643	PEDOT:PSS
+T3	CEM 634 649	PEDOT:PSS films
+T4	CEM 621 643	PSVA-treated PEDOT:PSS
+R1	synonym Arg1:T4 Arg2:T1	
+R2	synonym Arg1:T1 Arg2:T2	
+R3	synonym Arg1:T2 Arg2:T3	
+T5	PF 714 726	power factor
+T6	Value 737 752	9.47 μW m-1 K-2
+E1	Value:T6 temp:T7 cem:T3 spec:T5
+T7	temperature 776 792	room temperature

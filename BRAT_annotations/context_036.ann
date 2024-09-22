@@ -1,0 +1,5 @@
+T1	ZT 154 169	figure of merit
+T2	Value 171 175	∼0.4
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 193 202	375–400 K
+T4	CEM 218 233	Bi1.99Cr0.01Te3

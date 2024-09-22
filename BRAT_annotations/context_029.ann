@@ -1,0 +1,7 @@
+T1	CEM 100 119	pristine Ba8Cu16P30
+T2	CEM 109 119	Ba8Cu16P30
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ThermCond 138 158	thermal conductivity
+T4	Value 162 175	1.4 W m−1 K−1
+E1	Value:T4 spec:T3 temp:T5 cem:T1
+T5	temperature 179 195	room temperature

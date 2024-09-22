@@ -1,0 +1,64 @@
+T1	CEM 124 146	ZM Bi2Te3-based alloys
+T2	ZT 212 214	zT
+T4	temperature 233 249	room temperature
+T3	Value 225 227	∼1
+E1	Value:T3 spec:T2 cem:T1 temp:T4
+T5	ZT 511 513	zT
+T6	Value 517 521	∼1.3
+E2	Value:T6 spec:T5 temp:T7 cem:T8
+T7	temperature 525 530	380 K
+T8	CEM 558 571	Bi0.3Sb1.7Te3
+T9	ZT 596 598	zT
+T10	Value 602 607	∼0.92
+E3	Value:T10 temp:T11 spec:T9 cem:T14
+T11	temperature 611 616	710 K
+T12	CEM 628 649	Ag0.01Sb1.85In0.15Te3
+T13	CEM 628 655	Ag0.01Sb1.85In0.15Te3 alloy
+T14	CEM 621 649	p-type Ag0.01Sb1.85In0.15Te3
+T15	CEM 621 655	p-type Ag0.01Sb1.85In0.15Te3 alloy
+R1	synonym Arg1:T15 Arg2:T14	
+R2	synonym Arg1:T15 Arg2:T13	
+R3	synonym Arg1:T14 Arg2:T12	
+T16	ZT 760 762	zT
+T17	Value 766 770	∼1.4
+E4	Value:T17 spec:T16 temp:T18 cem:T19
+T19	CEM 796 818	Bi0.3Sb1.625In0.075Te3
+T18	temperature 787 792	500 K
+T20	CEM 917 928	Bi2(Te,Se)3
+T21	CEM 917 938	Bi2(Te,Se)3 materials
+T22	CEM 910 938	n-type Bi2(Te,Se)3 materials
+T23	CEM 901 938	textured n-type Bi2(Te,Se)3 materials
+T24	CEM 910 928	n-type Bi2(Te,Se)3
+T25	CEM 901 928	textured n-type Bi2(Te,Se)3
+R4	synonym Arg1:T25 Arg2:T24	
+R5	synonym Arg1:T23 Arg2:T24	
+R6	synonym Arg1:T23 Arg2:T22	
+R7	synonym Arg1:T22 Arg2:T20	
+R8	synonym Arg1:T20 Arg2:T21	
+T26	ZT 954 956	zT
+T27	ZT 946 956	maximum zT
+T28	Value 967 970	1.1
+E5	Value:T28 temp:T29 spec:T26 cem:T25
+T29	temperature 974 979	473 K
+T30	ZT 1012 1014	zT
+T31	ZT 1007 1014	peak zT
+R9	synospec Arg1:T31 Arg2:T30	
+T32	Value 1024 1029	∼0.86
+E6	Value:T32 temp:T33 spec:T30 cem:T36
+T33	temperature 1033 1038	600 K
+T34	CEM 1061 1074	Bi2Te1.5Se1.5
+T35	CEM 1049 1074	zone melted Bi2Te1.5Se1.5
+T36	CEM 1042 1074	n-type zone melted Bi2Te1.5Se1.5
+R10	synonym Arg1:T36 Arg2:T35	
+R11	synonym Arg1:T36 Arg2:T34	
+T37	ZT 1117 1119	zT
+T38	Value 1123 1127	∼0.8
+E7	Value:T38 spec:T37 temp:T39 cem:T42
+T39	temperature 1131 1136	573 K
+T40	CEM 1147 1154	Bi2Te2S
+T41	CEM 1140 1154	n-type Bi2Te2S
+T42	CEM 1147 1196	Bi2Te2S prepared by ball-milling and hot-pressing
+T43	CEM 1140 1195	n-type Bi2Te2S prepared by ball-milling and hot-pressin
+R12	synonym Arg1:T43 Arg2:T42	
+R13	synonym Arg1:T42 Arg2:T40	
+R14	synonym Arg1:T40 Arg2:T41	

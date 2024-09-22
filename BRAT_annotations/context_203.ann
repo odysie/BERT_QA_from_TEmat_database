@@ -1,0 +1,32 @@
+T1	CEM 810 818	CaMnO3-δ
+T2	ThermCond 801 804	κel
+T3	Value 822 837	0.019 W m-1 K-1
+E1	Value:T3 cem:T1 spec:T2 temp:T6
+T4	CEM 843 861	Ca0.95Bi0.05MnO3-δ
+T5	Value 866 880	0.11 W m-1 K-1
+E2	Value:T5 temp:T6 cem:T4 spec:T2
+T6	temperature 884 889	700 K
+T7	ThermCond 1077 1083	κtotal
+T8	CEM 1087 1105	Ca0.95Bi0.05MnO3-δ
+T9	Value 1115 1129	1.91 W m-1 K-1
+E3	Value:T9 temp:T10 cem:T8 spec:T7
+T10	temperature 1133 1138	300 K
+T11	ThermCond 1403 1409	κtotal
+T12	Value 1411 1424	3.0 W m-1 K-1
+E4	Value:T12 spec:T11 temp:T13 cem:T14
+T13	temperature 1428 1433	300 K
+T14	CEM 1438 1452	Ca0.9Bi0.1MnO3
+T15	Value 1454 1467	3.6 W m-1 K-1
+E5	Value:T15 temp:T16 cem:T17 spec:T11
+T17	CEM 1481 1497	Ca0.96Bi0.04MnO3
+T16	temperature 1471 1476	300 K
+T18	ZT 2032 2034	ZT
+T19	Value 2046 2051	0.028
+E6	Value:T19 spec:T18 temp:T20 cem:T21
+T20	temperature 2055 2060	300 K
+T21	CEM 2069 2085	Ca0.96Bi0.04MnO3
+T22	ZT 2087 2089	ZT
+T23	Value 2099 2103	0.02
+E7	Value:T23 spec:T22 temp:T24 cem:T25
+T24	temperature 2107 2112	300 K
+T25	CEM 2121 2135	Ca0.9Bi0.1MnO3

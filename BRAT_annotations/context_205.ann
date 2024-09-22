@@ -1,0 +1,19 @@
+T1	CEM 997 1016	La0.9Fe3.5Ni0.5Sb12
+T2	ZT 1067 1069	ZT
+T3	ZT 1050 1065	figure of merit
+T4	ZT 1050 1069	figure of merit, ZT
+T5	ZT 1036 1065	dimensionless figure of merit
+T6	ZT 1036 1069	dimensionless figure of merit, ZT
+R1	synospec Arg1:T5 Arg2:T6	
+R2	synospec Arg1:T5 Arg2:T4	
+R3	synospec Arg1:T4 Arg2:T3	
+R4	synospec Arg1:T3 Arg2:T2	
+T7	Value 1073 1077	0.82
+E1	Value:T7 temp:T8 spec:T2 cem:T1
+T8	temperature 1081 1086	723 K
+T9	PF 1112 1124	power factor
+T10	Value 1126 1138	2.8 mWm-1K-2
+E2	Value:T10 spec:T9 temp:T8 cem:T1
+T11	ThermCond 1152 1172	thermal conductivity
+T12	Value 1174 1185	2.4 Wm-1K-1
+E3	Value:T12 spec:T11 temp:T8 cem:T1

@@ -1,0 +1,7 @@
+T1	CEM 535 549	Fe0.6Co3.4Sb12
+T2	temperature 559 564	550 K
+T3	Value 506 517	148.77 μV/K
+E1	Value:T3 spec:T4 cem:T1 temp:T2
+T4	Seebeck 486 505	Seebeck coefficient
+T5	Seebeck 478 505	maximal Seebeck coefficient
+R1	synospec Arg1:T5 Arg2:T4	

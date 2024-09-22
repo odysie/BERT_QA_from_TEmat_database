@@ -1,0 +1,11 @@
+T1	CEM 1245 1270	Bi2Te3/Sb2Te3 multilayers
+T2	CEM 1275 1319	PbTe bulk material with natural NP additions
+T3	ZT 1358 1373	figure of merit
+T4	ZT 1375 1377	ZT
+T5	ZT 1358 1378	figure of merit (ZT)
+R1	synospec Arg1:T5 Arg2:T3	
+R2	synospec Arg1:T5 Arg2:T4	
+T6	Value 1402 1404	~2
+E1	Value:T6 temp:T7 spec:T4 cem:T2
+T7	temperature 1408 1413	800 K
+E2	Value:T6 temp:T7 spec:T4 cem:T1

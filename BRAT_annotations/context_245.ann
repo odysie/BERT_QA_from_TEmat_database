@@ -1,0 +1,17 @@
+T1	CEM 887 894	SbCrSe3
+T2	CEM 887 903	SbCrSe3 compound
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ThermCond 918 948	lattice thermal conductivities
+T4	Value 952 966	1.08 W m-1 K-1
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 970 975	300 K
+T6	Value 980 994	0.56 W m-1 K-1
+E2	Value:T6 temp:T7 spec:T3 cem:T2
+T7	temperature 998 1003	900 K
+T8	ZT 1126 1128	ZT
+T9	CEM 1140 1147	SbCrSe3
+T10	CEM 1132 1147	undoped SbCrSe3
+R2	synonym Arg1:T10 Arg2:T9	
+T11	Value 1152 1157	0.018
+E3	Value:T11 temp:T12 cem:T9 spec:T8
+T12	temperature 1161 1166	800 K

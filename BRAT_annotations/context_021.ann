@@ -1,0 +1,16 @@
+T1	CEM 757 773	Cu2Ge0.9Ni0.1Se3
+T2	PF 809 821	power factor
+T3	Value 825 841	∼7.5 μW cm−1 K−2
+E1	Value:T3 spec:T2 temp:T7 cem:T1
+T4	ZT 853 855	ZT
+T5	ZT 848 855	peak ZT
+T6	Value 860 864	0.38
+E2	Value:T6 temp:T7 spec:T4 cem:T1
+T7	temperature 868 873	723 K
+R1	synospec Arg1:T5 Arg2:T4	
+T8	PF 804 820	high power facto
+T9	PF 793 821	remarkably high power factor
+R2	synospec Arg1:T9 Arg2:T8	
+R3	synospec Arg1:T8 Arg2:T2	
+T10	CEM 757 780	Cu2Ge0.9Ni0.1Se3 sample
+R4	synonym Arg1:T10 Arg2:T1	

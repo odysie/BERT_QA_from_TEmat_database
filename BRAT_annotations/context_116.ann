@@ -1,0 +1,18 @@
+T1	ZT 146 148	zT
+T2	ZT 138 148	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 158 162	1.34
+E1	Value:T3 temp:T4 cem:T5 spec:T2
+T4	temperature 166 171	773 K
+T5	CEM 194 206	Ag1.2Cu0.8Te
+T6	CEM 211 217	AgCuTe
+T7	Value 158 165	1.34 at
+E2	Value:T7 spec:T1 temp:T4 cem:T6
+T8	CEM 315 327	Ag1.2Cu0.8Te
+T9	ZT 356 358	zT
+T10	Value 379 383	0.78
+E3	Value:T10 temp:T11 spec:T9 cem:T8
+T11	temperature 387 392	523 K
+T12	Value 396 400	1.34
+E4	Value:T12 temp:T13 spec:T9 cem:T8
+T13	temperature 404 409	773 K

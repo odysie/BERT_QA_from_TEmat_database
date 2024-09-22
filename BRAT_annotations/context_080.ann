@@ -1,0 +1,12 @@
+T1	Seebeck 483 502	Seebeck coefficient
+T2	CEM 506 519	SnS0.98Br0.02
+T3	Value 542 554	- 640 μV K−1
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 558 563	823 K
+T5	CEM 720 733	SnS0.98Br0.02
+T6	CEM 720 740	SnS0.98Br0.02 sample
+R1	synonym Arg1:T5 Arg2:T6	
+T7	PF 762 774	power factor
+T8	Value 778 794	~1.2 μW cm−1 K−2
+E2	Value:T8 temp:T9 spec:T7 cem:T6
+T9	temperature 798 803	823 K

@@ -1,0 +1,18 @@
+T1	Seebeck 45 64	Seebeck coefficient
+T2	CEM 72 82	CoCp2@SWNT
+T3	CEM 72 87	CoCp2@SWNT film
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 113 126	- 41.8 μV K-1
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 130 135	320 K
+T6	CEM 202 217	empty SWNT film
+T7	Value 232 243	45.3 μV K-1
+E2	Value:T7 temp:T8 cem:T6 spec:T1
+T8	temperature 247 252	320 K
+T9	PF 1860 1872	power factor
+T10	CEM 1880 1890	CoCp2@SWNT
+T11	CEM 1880 1895	CoCp2@SWNT film
+R2	synonym Arg1:T10 Arg2:T11	
+T12	Value 1897 1912	75.4 μW m-1 K-2
+E3	Value:T12 temp:T13 cem:T11 spec:T9
+T13	temperature 1916 1921	320 K

@@ -1,0 +1,10 @@
+T1	temperature 1000 1016	room temperature
+T2	ElecCond 1017 1029	conductivity
+T3	Value 1033 1041	0.1 S/cm
+E1	Value:T3 spec:T2 temp:T1 cem:T4
+T4	CEM 1056 1081	crystals of p-type LuRhO3
+T5	temperature 1089 1105	room temperature
+T6	ElecCond 1106 1118	conductivity
+T7	Value 1122 1130	0.7 S/cm
+E2	Value:T7 spec:T6 temp:T5 cem:T8
+T8	CEM 1145 1168	films of p-type ZnRh2O4

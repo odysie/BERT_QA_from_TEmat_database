@@ -1,0 +1,37 @@
+T1	temperature 262 269	1,000 K
+T2	Value 254 260	8 W/mK
+E1	Value:T2 temp:T1 spec:T7 cem:T4
+T3	Value 175 186	200,000 S/m
+E2	Value:T3 spec:T8 cem:T4 temp:T1
+T4	CEM 129 132	NbO
+T5	Seebeck 190 209	Seebeck coefficient
+T6	Value 213 220	25 μV/K
+E3	Value:T6 spec:T5 cem:T4 temp:T1
+T7	ThermCond 230 250	lattice conductivity
+T8	ElecCond 150 159	conductor
+T9	CEM 272 285	NbO2 ceramics
+T10	CEM 272 276	NbO2
+R1	synonym Arg1:T10 Arg2:T9	
+T11	ElecCond 299 322	electrical conductivity
+T12	Value 324 334	15,000 S/m
+E4	Value:T12 spec:T11 temp:T17 cem:T9
+T13	Seebeck 336 355	Seebeck coefficient
+T14	Value 359 367	150 μV/K
+E5	Value:T14 spec:T13 cem:T9 temp:T17
+T15	ThermCond 372 392	lattice conductivity
+T16	Value 396 402	3 W/mK
+E6	Value:T16 temp:T17 spec:T15 cem:T9
+T17	temperature 404 411	1,000 K
+T18	CEM 419 424	Nb2O5
+T19	CEM 414 424	Pure Nb2O5
+R2	synonym Arg1:T19 Arg2:T18	
+T20	CEM 419 434	Nb2O5 materials
+T21	CEM 414 434	Pure Nb2O5 materials
+R3	synonym Arg1:T21 Arg2:T20	
+T22	ElecCond 453 476	electrical conductivity
+T23	Value 494 503	2,600 S/m
+E7	Value:T23 temp:T24 spec:T22 cem:T20
+T24	temperature 507 514	1,000 K
+T25	Seebeck 521 540	Seebeck coefficient
+T26	Value 542 550	220 μV/K
+E8	Value:T26 spec:T25 temp:T24 cem:T21

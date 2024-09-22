@@ -1,0 +1,12 @@
+T1	Seebeck 76 95	Seebeck coefficient
+T2	CEM 99 117	Cu2Sn0.93Ag0.07Se3
+T3	Value 126 136	+145 μVK−1
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 140 145	773 K
+T5	CEM 641 659	Cu2Sn0.93Ag0.07Se3
+T6	temperature 663 668	773 K
+T7	PF 605 607	PF
+T8	PF 593 607	record high PF
+R1	synospec Arg1:T7 Arg2:T8	
+T9	Value 611 625	12.9 μWcm−1K−2
+E2	Value:T9 spec:T7 cem:T5 temp:T6

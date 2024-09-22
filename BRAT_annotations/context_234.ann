@@ -1,0 +1,14 @@
+T1	temperature 145 151	1000 K
+T2	CEM 161 169	La3Cu3P4
+T3	CEM 174 183	La3Cu3As4
+T4	Seebeck 184 196	thermopowers
+T5	Value 213 225	180–300 μV/K
+E1	Value:T5 spec:T4 cem:T3 temp:T1
+E2	Value:T5 spec:T4 cem:T2 temp:T1
+T6	CEM 970 979	La3Cu3Sb4
+T7	temperature 1027 1032	300 K
+T8	Seebeck 1033 1044	thermopower
+T9	Value 1048 1056	~60 μV/K
+E3	Value:T9 spec:T8 temp:T7 cem:T6
+T10	Value 1133 1140	55 μV/K
+E4	Value:T10 spec:T8 temp:T7 cem:T6

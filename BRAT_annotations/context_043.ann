@@ -1,0 +1,13 @@
+T1	CEM 1878 1898	Binary undoped Mg2Si
+T2	CEM 1885 1898	undoped Mg2Si
+T3	CEM 1893 1898	Mg2Si
+T4	ThermCond 1914 1941	phonon thermal conductivity
+T5	Value 1944 1956	11 W m−1 K−1
+E1	Value:T5 temp:T6 spec:T4 cem:T3
+T6	temperature 1961 1977	room temperature
+T7	CEM 2040 2060	Mg2Si0.55Sn0.4Ge0.05
+T8	CEM 2040 2075	Mg2Si0.55Sn0.4Ge0.05 solid solution
+R1	synonym Arg1:T7 Arg2:T8	
+T9	temperature 2025 2030	300 K
+T10	Value 2008 2021	1.9 W m−1 K−1
+E2	Value:T10 temp:T9 cem:T7 spec:T4

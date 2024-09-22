@@ -1,0 +1,5 @@
+T1	CEM 48 54	PdCoO2
+T2	ElecCond 105 127	electrical resistivity
+T3	Value 147 157	4.69 μΩ cm
+E1	Value:T3 spec:T2 cem:T1 temp:T4
+T4	temperature 161 177	room temperature

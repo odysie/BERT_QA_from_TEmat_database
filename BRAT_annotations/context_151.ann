@@ -1,0 +1,17 @@
+T1	ZT 384 386	ZT
+T2	Value 390 394	0.56
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 411 416	623 K
+T4	CEM 421 435	Ga0.2Co4Sb12.3
+T5	CEM 875 891	Ga0.2Co4Sb11.3Te
+T6	ThermCond 851 871	thermal conductivity
+T7	Value 896 908	∼2.8 Wm−1K−1
+E2	Value:T7 temp:T8 cem:T5 spec:T6
+T8	temperature 912 917	873 K
+T9	PF 976 988	power factor
+T10	Value 1033 1050	∼5 × 10−4 Wm−1K−2
+E3	Value:T10 cem:T11 spec:T9 temp:T8
+T11	CEM 1055 1069	Ga0.2Co4Sb12.3
+T12	Value 1073 1090	50 × 10−4 Wm−1K−2
+E4	Value:T12 cem:T13 spec:T9 temp:T8
+T13	CEM 1095 1111	Ga0.2Co4Sb11.3Te

@@ -1,0 +1,7 @@
+T1	CEM 20 55	optimized doped sample Bi2Te2.9I0.1
+T2	CEM 30 55	doped sample Bi2Te2.9I0.1
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Value 75 78	1.1
+E1	Value:T3 temp:T5 cem:T2 spec:T4
+T4	ZT 4 6	ZT
+T5	temperature 82 87	448 K

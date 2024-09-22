@@ -1,0 +1,7 @@
+T1	Seebeck 232 251	Seebeck coefficient
+T2	CEM 259 271	B-doped SiGe
+T3	CEM 259 281	B-doped SiGe thin film
+R1	synonym Arg1:T2 Arg2:T3	
+T4	temperature 308 314	100 °C
+T5	Value 319 329	0.115 mV/K
+E1	Value:T5 temp:T4 spec:T1 cem:T3

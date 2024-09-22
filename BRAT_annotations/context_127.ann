@@ -1,0 +1,5 @@
+T1	PF 1090 1102	power factor
+T2	temperature 1118 1123	730 K
+T3	Value 1131 1143	1768μWm−1K−2
+E1	Value:T3 cem:T4 temp:T2 spec:T1
+T4	CEM 1148 1162	Mn0.98Sb0.02Te

@@ -1,0 +1,28 @@
+T1	ThermCond 185 187	κl
+T2	Value 188 198	0.4Wm−1K−1
+E1	Value:T2 spec:T1 temp:T3 cem:T8
+T3	temperature 202 207	400 K
+T4	ZT 214 216	zT
+T5	Value 217 222	∼ 1.9
+E2	Value:T5 spec:T4 cem:T8 temp:T6
+T6	temperature 226 231	585 K
+T7	CEM 242 259	AgSb0.96Zn0.04Te2
+T8	CEM 235 259	p-type AgSb0.96Zn0.04Te2
+R1	synonym Arg1:T8 Arg2:T7	
+T9	CEM 438 444	Sb2Te3
+T10	CEM 438 457	Sb2Te3 precipitates
+T11	CEM 438 505	Sb2Te3 precipitates with sizes ranging from nanometer to micrometer
+R2	synonym Arg1:T9 Arg2:T10	
+R3	synonym Arg1:T10 Arg2:T11	
+T12	ThermCond 515 517	κl
+T13	Value 518 529	0.65Wm−1K−1
+E3	Value:T13 temp:T14 spec:T12 cem:T11
+T14	temperature 533 538	300 K
+T15	ThermCond 940 942	κl
+T16	Value 943 953	0.4Wm−1K−1
+E4	Value:T16 spec:T15 temp:T19 cem:T20
+T17	ZT 969 971	zT
+T18	Value 973 977	 2.2
+E5	Value:T18 temp:T19 spec:T17 cem:T20
+T19	temperature 981 986	850 K
+T20	CEM 990 1012	Na0.025Eu0.03Pb0.945Te

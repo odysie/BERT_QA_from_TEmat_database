@@ -1,0 +1,5 @@
+T1	ElecCond 81 103	electrical resistivity
+T2	CEM 107 115	β-Zn4Sb3
+T3	Value 126 137	2.2×10−5 Ωm
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 141 157	room temperature

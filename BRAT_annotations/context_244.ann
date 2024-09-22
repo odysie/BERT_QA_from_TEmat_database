@@ -1,0 +1,14 @@
+T1	ElecCond 597 620	electrical conductivity
+T2	ElecCond 621 622	σ
+T3	ElecCond 597 622	electrical conductivity σ
+R1	synospec Arg1:T1 Arg2:T3	
+R2	synospec Arg1:T1 Arg2:T2	
+T4	Value 652 663	0.054 S m-1
+E1	Value:T4 temp:T5 spec:T2 cem:T6
+T5	temperature 667 672	300 K
+T6	CEM 680 696	pristine SbCrSe3
+T7	CEM 689 696	SbCrSe3
+T8	Value 700 712	1586.1 S m-1
+E2	Value:T8 temp:T9 cem:T7 spec:T2
+T9	temperature 716 721	300 K
+R3	synonym Arg1:T6 Arg2:T7	

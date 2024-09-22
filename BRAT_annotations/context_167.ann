@@ -1,0 +1,13 @@
+T1	ElecCond 362 385	electrical conductivity
+T2	CEM 389 393	NbO2
+T3	Value 413 420	40 S/cm
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 430 435	650 K
+T5	CEM 655 659	NbO2
+T6	Value 739 748	~250 S/cm
+E2	Value:T6 cem:T5 temp:T7 spec:T10
+T7	temperature 752 758	1000 K
+T8	Value 763 772	~500 S/cm
+E3	Value:T8 temp:T9 cem:T5 spec:T10
+T9	temperature 776 783	~1300 K
+T10	ElecCond 639 651	conductivity

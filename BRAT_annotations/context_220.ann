@@ -1,0 +1,9 @@
+T1	CEM 148 160	TiO1.94–1.86
+T2	ZT 289 291	ZT
+T3	temperature 292 297	350 K
+T4	Value 301 304	0.2
+E1	Value:T4 temp:T3 cem:T1 spec:T2
+T5	Value 355 364	-0.5 mV/K
+E2	Value:T5 temp:T6 cem:T1 spec:T7
+T6	temperature 368 373	70 °C
+T7	Seebeck 332 351	Seebeck coefficient

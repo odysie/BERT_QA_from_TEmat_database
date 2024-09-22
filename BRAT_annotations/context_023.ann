@@ -1,0 +1,8 @@
+T1	CEM 131 154	Dy/Yb dual-doped CaMnO3
+T2	Value 111 115	0.27
+E1	Value:T2 cem:T1 spec:T3 temp:T6
+T3	ZT 106 108	zT
+T4	Value 70 78	1.4 W/Km
+E2	Value:T4 spec:T5 temp:T6 cem:T1
+T5	ThermCond 48 68	thermal conductivity
+T6	temperature 82 88	1073 K

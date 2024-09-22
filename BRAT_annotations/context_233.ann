@@ -1,0 +1,5 @@
+T1	CEM 0 11	Si:P wafers
+T2	Value 17 28	3.6±0.3 Ωcm
+E1	Value:T2 temp:T3 spec:T4 cem:T1
+T3	temperature 29 45	room temperature
+T4	ElecCond 46 57	resistivity

@@ -1,0 +1,13 @@
+T1	Value 315 319	∼1.5
+E1	Value:T1 spec:T3 cem:T4 temp:T8
+T2	ZT 284 311	dimensional figure of merit
+T3	ZT 296 311	figure of merit
+R1	synospec Arg1:T2 Arg2:T3	
+T4	CEM 339 379	MS-SPS-processed In0.2Ce0.15Co4Sb12/InSb
+T5	CEM 356 374	In0.2Ce0.15Co4Sb12
+T6	CEM 356 386	In0.2Ce0.15Co4Sb12/InSb sample
+T7	CEM 339 386	MS-SPS-processed In0.2Ce0.15Co4Sb12/InSb sample
+R2	synonym Arg1:T4 Arg2:T7	
+R3	synonym Arg1:T7 Arg2:T5	
+R4	synonym Arg1:T5 Arg2:T6	
+T8	temperature 390 395	800 K

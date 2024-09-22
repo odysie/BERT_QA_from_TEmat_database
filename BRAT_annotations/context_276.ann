@@ -1,0 +1,20 @@
+T1	CEM 252 300	nanostructured bismuth antimony tellurium alloys
+T2	CEM 267 293	bismuth antimony tellurium
+R1	synonym Arg1:T1 Arg2:T2	
+T3	CEM 267 300	bismuth antimony tellurium alloys
+R2	synonym Arg1:T2 Arg2:T3	
+T4	CEM 252 283	nanostructured bismuth antimony
+R3	synonym Arg1:T4 Arg2:T1	
+T5	CEM 252 316	nanostructured bismuth antimony tellurium alloys prepared by SPS
+R4	synonym Arg1:T5 Arg2:T3	
+T6	ZT 329 331	zT
+T7	ZT 324 331	peak zT
+T8	Value 335 338	1.3
+E1	Value:T8 temp:T9 spec:T6 cem:T5
+T9	temperature 367 380	348 and 373 K
+T10	CEM 422 480	Bi–Sb–Te samples with nano-domains and coherent boundaries
+T11	ZT 571 573	zT
+T12	Value 588 591	1.5
+E2	Value:T12 temp:T13 spec:T11 cem:T10
+T13	temperature 595 600	390 K
+R5	synospec Arg1:T7 Arg2:T6	

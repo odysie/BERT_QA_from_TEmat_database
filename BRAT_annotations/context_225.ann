@@ -1,0 +1,16 @@
+T1	CEM 435 456	Nb2O5-type structures
+T2	ElecCond 489 512	electrical conductivity
+T3	Value 514 524	<5,000 S/m
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 528 535	1,000 K
+T5	Seebeck 589 608	Seebeck coefficient
+T6	Value 610 627	-150 to -300 μV/K
+E2	Value:T6 temp:T7 spec:T5 cem:T1
+T7	temperature 631 638	1,000 K
+T8	CEM 1216 1239	Nb12O29-based materials
+T9	ZT 1263 1265	ZT
+T10	ZT 1193 1208	figure of merit
+R1	synospec Arg1:T9 Arg2:T10	
+T11	Value 1277 1281	0.16
+E3	Value:T11 temp:T12 spec:T9 cem:T8
+T12	temperature 1266 1273	1,000 K

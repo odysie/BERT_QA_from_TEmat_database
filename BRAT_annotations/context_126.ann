@@ -1,0 +1,35 @@
+T1	Seebeck 560 579	Seebeck coefficient
+T2	temperature 594 599	600 K
+T3	CEM 641 647	Sr3BiN
+T4	Value 660 668	142 μV/K
+E1	Value:T4 cem:T3 temp:T2 spec:T1
+T5	ThermCond 691 721	lattice thermal conductivities
+T6	Value 735 744	0.06 W/mK
+E2	Value:T6 cem:T3 temp:T2 spec:T5
+T7	ZT 870 872	ZT
+T8	ZT 843 873	predicted figure of merit (ZT)
+T9	ZT 853 868	figure of merit
+T10	ZT 843 873	predicted figure of merit (ZT)
+R1	synospec Arg1:T10 Arg2:T8	
+R2	synospec Arg1:T8 Arg2:T9	
+R3	synospec Arg1:T10 Arg2:T7	
+T11	CEM 878 884	Sr3SbN
+T12	CEM 889 895	Sr3BiN
+T13	temperature 899 904	600 K
+T14	Value 921 925	0.71
+E3	Value:T14 cem:T11 spec:T7 temp:T13
+T15	Value 930 934	0.22
+E4	Value:T15 temp:T13 cem:T12 spec:T7
+T16	ZT 954 956	ZT
+T17	CEM 968 974	Sr3BiN
+T18	temperature 1009 1014	300 K
+T19	Value 1021 1025	0.63
+E5	Value:T19 temp:T18 cem:T17 spec:T16
+T20	PF 1178 1190	power factor
+T21	Value 1192 1206	16.5 μWcm−1K−2
+E6	Value:T21 spec:T20 cem:T22 temp:T23
+T22	CEM 1212 1218	Sr3SbN
+T23	temperature 1222 1227	600 K
+T24	Value 1256 1269	10.1μWcm−1K−2
+E7	Value:T24 cem:T25 temp:T23 spec:T20
+T25	CEM 1273 1293	SnSe single crystals

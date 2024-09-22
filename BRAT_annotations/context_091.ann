@@ -1,0 +1,14 @@
+T1	ZT 1414 1416	ZT
+T2	Value 1420 1424	∼0.5
+E1	Value:T2 spec:T1 temp:T10 cem:T3
+T3	CEM 1428 1444	1% Mo-doped PbSe
+T4	ZT 1466 1468	ZT
+T5	ZT 1461 1468	peak ZT
+T6	ZT 1453 1468	highest peak ZT
+R1	synospec Arg1:T6 Arg2:T5	
+R2	synospec Arg1:T5 Arg2:T4	
+T7	Value 1472 1476	∼1.0
+E2	Value:T7 spec:T4 cem:T8 temp:T9
+T8	CEM 1481 1499	0.5% Cr-doped PbSe
+T9	temperature 1509 1514	673 K
+T10	temperature 1397 1413	room temperature

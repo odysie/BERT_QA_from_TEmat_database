@@ -1,0 +1,10 @@
+T1	CEM 201 212	PEODT-BiTe3
+T2	CEM 201 231	PEODT-BiTe3 nanorod composites
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ZT 246 248	ZT
+T4	Value 252 255	0.1
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 259 275	room temperature
+T6	ThermCond 313 333	thermal conductivity
+T7	Value 337 346	0.2 W/m-K
+E2	Value:T7 spec:T6 temp:T5 cem:T2

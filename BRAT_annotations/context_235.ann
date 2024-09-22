@@ -1,0 +1,25 @@
+T1	CEM 125 129	HgTe
+T2	CEM 25 43	semi-metallic HgTe
+T3	CEM 39 43	HgTe
+R1	synonym Arg1:T2 Arg2:T3	
+R2	synonym Arg1:T3 Arg2:T1	
+T4	Seebeck 228 247	Seebeck coefficient
+T5	Value 256 278	-90 μV/K and -135 μV/K
+E1	Value:T5 temp:T6 cem:T1 spec:T4
+T6	temperature 282 299	room temperatures
+T7	ElecCond 765 766	σ
+T8	Value 769 778	1700 S/cm
+E2	Value:T8 temp:T9 spec:T7 cem:T11
+T9	temperature 782 799	room temperatures
+T10	ElecCond 685 708	electrical conductivity
+R3	synospec Arg1:T10 Arg2:T7	
+T11	CEM 432 436	HgTe
+T12	CEM 1110 1114	HgTe
+T13	PF 1125 1137	power factor
+T14	PF 1152 1154	PF
+R4	synospec Arg1:T13 Arg2:T14	
+T15	Value 1157 1174	14–31 μW cm-1 K-2
+E3	Value:T15 temp:T16 spec:T14 cem:T12
+T16	temperature 1182 1187	300 K
+T17	CEM 1100 1114	intrinsic HgTe
+R5	synonym Arg1:T17 Arg2:T12	

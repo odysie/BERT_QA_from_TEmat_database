@@ -1,0 +1,5 @@
+T1	ZT 718 720	zT
+T2	Value 722 726	 1.7
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 730 735	700 K
+T4	CEM 740 764	(AgSbTe2)9.09(PbTe)90.91

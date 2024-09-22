@@ -1,0 +1,10 @@
+T1	ZT 636 638	zT
+T2	Value 642 646	0.80
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 650 655	773 K
+T4	CEM 660 677	Cu1.85Ag0.15SnSe3
+T7	CEM 803 828	Cu1.85Ag0.15Sn0.9In0.1Se3
+T8	temperature 832 837	823 K
+T5	Value 794 799	 1.42
+E2	Value:T5 spec:T6 cem:T7 temp:T8
+T6	ZT 790 792	zT

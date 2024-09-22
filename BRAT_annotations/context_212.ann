@@ -1,0 +1,7 @@
+T2	ZT 789 791	ZT
+T3	CEM 795 837	β-Pb0.02Zn3.98Sb3 with 3 vol.% of Cu3SbSe4
+T4	CEM 795 852	β-Pb0.02Zn3.98Sb3 with 3 vol.% of Cu3SbSe4 nanoinclusions
+R1	synonym Arg1:T3 Arg2:T4	
+T1	Value 872 875	1.4
+E1	Value:T1 temp:T5 cem:T4 spec:T2
+T5	temperature 879 884	648 K

@@ -1,0 +1,7 @@
+T1	ZT 20 22	ZT
+T2	ZT 15 22	peak ZT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	temperature 33 38	850 K
+T4	Value 26 29	0.9
+E1	Value:T4 temp:T3 spec:T1 cem:T5
+T5	CEM 84 108	Sn0.98Bi0.02Te-1%HgInTe2

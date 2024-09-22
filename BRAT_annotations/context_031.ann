@@ -1,0 +1,5 @@
+T1	ElecCond 528 551	electrical conductivity
+T2	CEM 555 565	Ca3Co4O9+δ
+T3	Value 631 642	83.4 S cm−1
+E1	Value:T3 cem:T2 spec:T1 temp:T4
+T4	temperature 646 651	700°C

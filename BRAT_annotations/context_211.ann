@@ -1,0 +1,22 @@
+T1	CEM 317 323	Mg3Sb2
+T2	CEM 309 323	undoped Mg3Sb2
+R1	synonym Arg1:T2 Arg2:T1	
+T3	temperature 236 252	room temperature
+T4	ElecCond 253 276	electrical conductivity
+T5	Value 285 304	~ 0.08 × 10^4 S m-1
+E1	Value:T5 cem:T2 spec:T4 temp:T3
+T6	PF 1799 1811	power factor
+T7	PF 1813 1815	PF
+T8	PF 1818 1821	σS2
+R2	synospec Arg1:T6 Arg2:T7	
+R3	synospec Arg1:T7 Arg2:T8	
+T9	Value 1851 1866	~ 2 μW cm-1 K-2
+E2	Value:T9 spec:T8 temp:T10 cem:T12
+T10	temperature 1876 1881	773 K
+T11	CEM 1894 1900	Mg3Sb2
+T12	CEM 1886 1900	undoped Mg3Sb2
+R4	synonym Arg1:T12 Arg2:T11	
+T13	Value 1904 1919	~ 6 μW cm-1 K-2
+E3	Value:T13 temp:T14 cem:T15 spec:T8
+T14	temperature 1929 1934	773 K
+T15	CEM 1939 1956	Mg2.975Li0.025Sb2

@@ -1,0 +1,21 @@
+T1	CEM 423 438	Mg2.96Ag0.04Sb2
+T2	temperature 414 419	773 K
+T3	Value 383 397	3.5 × 10−5 Ω m
+E1	Value:T3 spec:T4 temp:T2 cem:T1
+T4	ElecCond 368 379	resistivity
+T5	ElecCond 360 379	minimum resistivity
+R1	synospec Arg1:T5 Arg2:T4	
+T6	PF 1345 1365	maximum power factor
+T7	PF 1353 1365	power factor
+T9	temperature 1413 1418	723 K
+T10	CEM 1467 1473	Mg3Sb2
+T11	Value 1475 1492	1.42 × 10−4W/m·K2
+E3	Value:T11 cem:T10 temp:T9 spec:T7
+T8	PF 1514 1526	power factor
+T12	CEM 1530 1545	Mg1.96Ag0.04Sb2
+T13	Value 1549 1567	5.21 × 10−4 W/m·K2
+E2	Value:T13 temp:T14 cem:T12 spec:T8
+T14	temperature 1571 1576	773 K
+T15	Value 1599 1616	4.6 × 10−4 W/m·K2
+E4	Value:T15 cem:T16 temp:T14 spec:T8
+T16	CEM 1620 1637	Mg1.985Ag0.015Sb2

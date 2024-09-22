@@ -1,0 +1,8 @@
+T1	CEM 351 356	Ti4O7
+T2	temperature 342 349	1,000 K
+T3	ElecCond 365 390	electrical conductivities
+T4	Value 407 417	60,000 S/m
+E1	Value:T4 spec:T3 cem:T1 temp:T2
+T5	Seebeck 423 442	Seebeck coefficient
+T6	Value 446 455	-100 μV/K
+E2	Value:T6 spec:T5 cem:T1 temp:T2

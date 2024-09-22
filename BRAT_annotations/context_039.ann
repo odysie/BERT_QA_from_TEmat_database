@@ -1,0 +1,9 @@
+T1	CEM 27 31	GeTe
+T2	Seebeck 4 23	Seebeck coefficient
+T3	Value 82 88	89μV/K
+E1	Value:T3 temp:T4 cem:T1 spec:T2
+T4	temperature 92 97	770 K
+T5	Seebeck 114 125	thermopower
+T6	CEM 129 141	Ge0.9Sn0.1Te
+T7	Value 178 184	71μV/K
+E2	Value:T7 temp:T4 cem:T6 spec:T5

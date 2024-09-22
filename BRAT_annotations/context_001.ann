@@ -1,0 +1,11 @@
+T1	CEM 0 17	Bismuth telluride
+T2	CEM 19 25	Bi2Te3
+R1	synonym Arg1:T1 Arg2:T2	
+T3	CEM 0 26	Bismuth telluride (Bi2Te3)
+R2	synonym Arg1:T3 Arg2:T2	
+T4	ZT 50 57	high ZT
+T5	ZT 55 58	ZT 
+R3	synospec Arg1:T5 Arg2:T4	
+T6	Value 58 63	~ 1.3
+E1	Value:T6 temp:T7 spec:T5 cem:T2
+T7	temperature 64 85	near room temperature

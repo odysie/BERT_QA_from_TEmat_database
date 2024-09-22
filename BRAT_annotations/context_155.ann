@@ -1,0 +1,10 @@
+T1	CEM 1073 1077	SnTe
+T2	Value 1079 1087	∼15 μV/K
+E1	Value:T2 cem:T1 temp:T7 spec:T6
+T3	CEM 1003 1024	Sn0.85Mn0.15Te alloys
+T4	CEM 1003 1017	Sn0.85Mn0.15Te
+T5	Value 991 999	∼60 μV/K
+E2	Value:T5 cem:T4 spec:T6 temp:T7
+R1	synonym Arg1:T4 Arg2:T3	
+T6	Seebeck 968 987	Seebeck coefficient
+T7	temperature 951 967	room temperature

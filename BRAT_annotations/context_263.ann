@@ -1,0 +1,12 @@
+T1	CEM 73 80	AgSbSe2
+T2	CEM 62 80	Unannealed AgSbSe2
+R1	synonym Arg1:T2 Arg2:T1	
+T3	PF 102 114	power factor
+T4	Value 137 151	437 μW m−1 K−2
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 155 160	590 K
+T6	PF 519 531	power factor
+T7	CEM 535 542	AgBiSe2
+T8	Value 620 634	207 μW m−1 K−2
+E2	Value:T8 temp:T9 cem:T7 spec:T6
+T9	temperature 638 643	480 K

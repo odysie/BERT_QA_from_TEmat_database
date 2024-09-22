@@ -1,0 +1,28 @@
+T1	CEM 941 950	Ba24Ge100
+T2	CEM 928 950	single-phase Ba24Ge100
+T3	CEM 928 959	single-phase Ba24Ge100 compound
+R1	synonym Arg1:T2 Arg2:T1	
+R2	synonym Arg1:T2 Arg2:T3	
+T4	Seebeck 968 987	Seebeck coefficient
+T5	Value 997 1005	−20 μV/K
+E1	Value:T5 temp:T6 cem:T2 spec:T4
+T6	temperature 1009 1025	room temperature
+T7	Value 1044 1052	−51 μV/K
+E2	Value:T7 temp:T8 cem:T2 spec:T4
+T8	temperature 1056 1061	873 K
+T9	Seebeck 1184 1203	Seebeck coefficient
+T11	Value 1222 1231	80.5 μV/K
+E4	Value:T11 temp:T12 spec:T9 cem:T10
+T12	temperature 1235 1240	873 K
+T13	CEM 1247 1258	Ba24Ag6Ge94
+T14	Seebeck 1296 1315	Seebeck coefficient
+T15	Seebeck 1283 1315	value of the Seebeck coefficient
+T16	Seebeck 1275 1315	maximum value of the Seebeck coefficient
+R3	synospec Arg1:T16 Arg2:T15	
+R4	synospec Arg1:T15 Arg2:T14	
+T17	Seebeck 1292 1315	the Seebeck coefficient
+R5	synospec Arg1:T17 Arg2:T15	
+T10	CEM 1207 1218	Ba24Cu6Ge94
+T18	Value 1319 1326	87 μV/K
+E3	Value:T18 temp:T19 spec:T17 cem:T13
+T19	temperature 1330 1335	820 K

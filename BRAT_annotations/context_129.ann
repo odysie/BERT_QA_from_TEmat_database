@@ -1,0 +1,22 @@
+T1	CEM 224 234	Yb14MnSb11
+T2	CEM 0 10	Yb14MnSb11
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ElecCond 315 337	electrical resistivity
+T4	Value 392 408	∼5.4 × 10−3 Ω·cm
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 412 418	1200 K
+T6	CEM 561 571	Yb14MnSb11
+T7	Value 649 658	+185 μV/K
+E2	Value:T7 temp:T8 cem:T6 spec:T9
+T8	temperature 662 668	1275 K
+T9	Seebeck 537 556	Seebeck coefficient
+T10	CEM 936 946	Yb14MnSb11
+T11	ThermCond 912 932	thermal conductivity
+T12	Value 973 990	∼ 0.7 to 0.9 W/mK
+E3	Value:T12 temp:T13 spec:T11 cem:T10
+T13	temperature 996 1009	300 to 1275 K
+T14	CEM 1284 1294	Yb14MnSb11
+T15	Value 1361 1365	∼1.0
+E4	Value:T15 temp:T16 cem:T14 spec:T17
+T16	temperature 1369 1375	1223 K
+T17	ZT 1277 1279	ZT

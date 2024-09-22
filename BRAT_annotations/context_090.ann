@@ -1,0 +1,10 @@
+T1	Seebeck 635 636	S
+T2	Value 666 674	238 μV/K
+E1	Value:T2 temp:T3 cem:T4 spec:T1
+T3	temperature 678 683	760 K
+T4	CEM 688 707	CoSb2.8Te0.15Se0.05
+T5	Value 1274 1289	4.34 mW m-1 K−2
+E2	Value:T5 temp:T6 spec:T8 cem:T7
+T6	temperature 1305 1310	760 K
+T7	CEM 1315 1334	CoSb2.8Te0.15Se0.05
+T8	PF 1090 1102	power factor

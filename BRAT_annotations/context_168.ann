@@ -1,0 +1,11 @@
+T1	temperature 202 208	1000 K
+T2	ElecCond 214 236	electrical resistivity
+T3	Seebeck 245 264	Seebeck coefficient
+T4	CEM 287 295	Ca3Co4O9
+T5	Value 306 315	0.9 mΩ cm
+E1	Value:T5 cem:T4 spec:T2 temp:T1
+T6	Value 320 328	280 µV/K
+E2	Value:T6 temp:T1 spec:T3 cem:T4
+T7	ZT 360 362	ZT
+T8	Value 370 373	0.8
+E3	Value:T8 spec:T7 temp:T1 cem:T4

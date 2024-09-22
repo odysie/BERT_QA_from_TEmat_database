@@ -1,0 +1,5 @@
+T1	CEM 183 202	Ba7.81Ge40.67Au5.33
+T2	ThermCond 252 280	lattice thermal conductivity
+T3	temperature 284 289	300 K
+T4	Value 296 309	1.1 W m-1 K-1
+E1	Value:T4 temp:T3 spec:T2 cem:T1

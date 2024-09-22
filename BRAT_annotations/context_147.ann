@@ -1,0 +1,10 @@
+T1	CEM 308 320	Bi2Te3 cores
+T2	CEM 300 320	undoped Bi2Te3 cores
+R1	synonym Arg1:T2 Arg2:T1	
+T3	PF 331 343	power factor
+T4	Value 347 362	1.32 mW m−1 K−2
+E1	Value:T4 spec:T3 cem:T1 temp:T7
+T5	ZT 369 371	ZT
+T6	Value 375 380	∼0.76
+E2	Value:T6 temp:T7 spec:T5 cem:T1
+T7	temperature 384 389	300 K

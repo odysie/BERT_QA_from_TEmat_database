@@ -1,0 +1,8 @@
+T1	PF 638 650	power factor
+T2	Value 654 669	4.8 μW cm−1 K−2
+E1	Value:T2 spec:T1 temp:T5 cem:T6
+T3	ZT 676 678	ZT
+T4	Value 682 686	0.54
+E2	Value:T4 temp:T5 spec:T3 cem:T6
+T5	temperature 690 695	793 K
+T6	CEM 703 728	SnSe0.95–3% PbBr2 systems

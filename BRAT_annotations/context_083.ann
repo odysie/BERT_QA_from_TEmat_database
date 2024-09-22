@@ -1,0 +1,9 @@
+T1	ZT 546 548	ZT
+T2	Value 552 557	~ 1.6
+E1	Value:T2 spec:T1 temp:T3 cem:T5
+T3	temperature 561 566	923 K
+T4	CEM 594 618	PbSe alloying with 3% Cd
+T5	CEM 587 618	p-type PbSe alloying with 3% Cd
+T6	CEM 587 656	p-type PbSe alloying with 3% Cd through using the panoscopic approach
+R1	synonym Arg1:T4 Arg2:T6	
+R2	synonym Arg1:T4 Arg2:T5	

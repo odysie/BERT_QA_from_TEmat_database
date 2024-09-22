@@ -1,0 +1,13 @@
+T1	CEM 326 342	Ca2.7Y0.3Co4O9+δ
+T2	Value 375 396	3.05 × 10−4 W m−1 K−2
+E1	Value:T2 spec:T4 cem:T1 temp:T3
+T3	temperature 401 407	1073 K
+T4	PF 361 373	power factor
+T5	PF 771 784	power factors
+T6	CEM 792 820	Ca3−xYxCo4O9+δ (0 ≤ x ≤ 0.3)
+T7	Value 868 902	1.2 × 10−4 to 1.6 × 10−4 W m−1 K−2
+E2	Value:T7 cem:T6 temp:T8 spec:T5
+T8	temperature 906 909	773
+T9	Value 921 956	2.1 × 10−4 to 2.73 × 10−4 W m−1 K−2
+E3	Value:T9 temp:T10 cem:T6 spec:T5
+T10	temperature 960 966	1073 K

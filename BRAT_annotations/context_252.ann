@@ -1,0 +1,17 @@
+T1	CEM 182 189	BiCuOSe
+T2	CEM 169 189	non-textured BiCuOSe
+R1	synonym Arg1:T2 Arg2:T1	
+T3	Value 203 219	0.52–0.9 Wm-1K-1
+E1	Value:T3 temp:T4 cem:T1 spec:T5
+T4	temperature 223 228	300 K
+T5	ThermCond 137 165	lattice thermal conductivity
+T6	CEM 303 309	Bi2Te3
+T7	CEM 282 309	bulk TE materials of Bi2Te3
+R2	synonym Arg1:T7 Arg2:T6	
+T8	Value 311 322	1.6 Wm-1K-1
+E2	Value:T8 temp:T9 cem:T6 spec:T5
+T9	temperature 326 331	300 K
+T10	CEM 336 340	PbTe
+T11	Value 342 353	2.8 Wm-1K-1
+E3	Value:T11 temp:T12 cem:T10 spec:T5
+T12	temperature 357 362	300 K

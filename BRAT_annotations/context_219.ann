@@ -1,0 +1,14 @@
+T1	CEM 317 349	niobium-doped strontium titanate
+T2	ElecCond 363 386	electrical conductivity
+T3	Value 390 400	15,000 S/m
+E1	Value:T3 spec:T2 temp:T4 cem:T1
+T4	temperature 404 411	1,000 K
+T5	Seebeck 427 446	Seebeck coefficient
+T6	Value 450 459	-250 μV/K
+E2	Value:T6 spec:T5 temp:T4 cem:T1
+T8	ZT 507 522	figure of merit
+T9	ZT 552 554	ZT
+T10	Value 557 561	0.25
+E3	Value:T10 temp:T11 spec:T9 cem:T1
+T11	temperature 563 570	1,000 K
+R1	synospec Arg1:T9 Arg2:T8	

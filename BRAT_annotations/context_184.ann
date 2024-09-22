@@ -1,0 +1,14 @@
+T1	CEM 402 409	β-Ag2Se
+T2	CEM 402 415	β-Ag2Se bulks
+R1	synonym Arg1:T2 Arg2:T1	
+T3	temperature 491 497	1273 K
+T4	PF 506 526	maximum power factor
+T5	PF 514 526	power factor
+R2	synospec Arg1:T4 Arg2:T5	
+T6	Value 553 568	3500 μW m-1 K-2
+E1	Value:T6 spec:T5 temp:T3 cem:T2
+T7	CEM 691 722	Ag2Se films on glass substrates
+T8	PF 800 812	power factor
+T9	Value 813 828	~2440 μWm-1 K-2
+E2	Value:T9 temp:T10 spec:T8 cem:T7
+T10	temperature 832 848	room temperature

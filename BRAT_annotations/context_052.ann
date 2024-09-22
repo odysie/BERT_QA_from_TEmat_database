@@ -1,0 +1,23 @@
+T1	temperature 120 136	room temperature
+T2	PF 142 154	power factor
+T3	CEM 165 169	MnTe
+T4	Value 173 188	64.8 μW m−1 K−2
+E1	Value:T4 cem:T3 spec:T2 temp:T1
+T5	Value 222 237	431.7 μW m−1K−2
+E2	Value:T5 temp:T6 cem:T3 spec:T2
+T6	temperature 241 246	773 K
+T7	Value 317 332	64.8 μW m−1 K−2
+E3	Value:T7 cem:T9 spec:T8 temp:T11
+T8	PF 289 301	power factor
+T9	CEM 341 354	pristine MnTe
+T10	CEM 350 354	MnTe
+R1	synonym Arg1:T9 Arg2:T10	
+T11	temperature 398 414	room temperature
+T12	Value 358 373	18.4 μW m−1 K−2
+E4	Value:T12 cem:T13 temp:T11 spec:T8
+T13	CEM 378 394	Mn0.925Cu0.075Te
+T14	PF 654 666	power factor
+T15	CEM 670 686	Mn0.925Cu0.075Te
+T16	Value 710 725	584.2 μW m−1K−2
+E5	Value:T16 temp:T17 spec:T14 cem:T15
+T17	temperature 729 734	773 K

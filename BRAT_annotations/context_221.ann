@@ -1,0 +1,5 @@
+T1	CEM 24 34	TiO1.1–1.2
+T2	ZT 210 226	figures of merit
+T3	Value 230 238	1.2–1.64
+E1	Value:T3 spec:T2 cem:T1 temp:T4
+T4	temperature 257 269	700–1,200 °C

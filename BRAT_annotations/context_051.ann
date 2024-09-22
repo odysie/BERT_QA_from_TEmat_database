@@ -1,0 +1,12 @@
+T1	CEM 869 907	bulk non-stoichiometric MnTe materials
+T2	CEM 874 897	non-stoichiometric MnTe
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Seebeck 984 1003	Seebeck coefficient
+T4	Value 1012 1020	600 μV/K
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 1024 1040	room temperature
+T6	ZT 1057 1059	ZT
+T7	Value 1069 1074	∼0.41
+E2	Value:T7 spec:T6 cem:T8 temp:T9
+T8	CEM 1082 1094	Mn0.51Te0.49
+T9	temperature 1105 1110	773 K

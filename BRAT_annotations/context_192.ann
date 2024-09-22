@@ -1,0 +1,31 @@
+T1	CEM 332 362	cobaltocene-encapsulated SWNTs
+T2	CEM 372 383	CoCp2@SWNTs
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Seebeck 474 493	Seebeck coefficient
+T4	Value 495 507	-41.8 μV K-1
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 511 516	320 K
+T6	ElecCond 564 587	electrical conductivity
+T7	CEM 523 532	CoCp2@SWN
+T8	CEM 523 538	CoCp2@SWNT film
+R2	synonym Arg1:T7 Arg2:T8	
+T9	Value 589 601	43,200 S m-1
+E2	Value:T9 temp:T10 spec:T6 cem:T8
+T10	temperature 605 610	320 K
+T11	PF 622 634	power factor
+T12	Value 636 651	75.4 μW m-1 K-2
+E3	Value:T12 spec:T11 temp:T10 cem:T8
+T13	ZT 763 793	thermoelectric figure of merit
+T14	ZT 795 797	ZT
+T15	ZT 763 798	thermoelectric figure of merit (ZT)
+R3	synospec Arg1:T15 Arg2:T13	
+R4	synospec Arg1:T15 Arg2:T14	
+T16	CEM 812 822	CoCp2@SWNT
+T17	CEM 812 827	CoCp2@SWNT film
+R5	synonym Arg1:T16 Arg2:T17	
+T18	Value 829 834	0.157
+E4	Value:T18 temp:T19 cem:T17 spec:T14
+T19	temperature 838 843	320 K
+T20	ThermCond 954 974	thermal conductivity
+T21	Value 976 990	0.15 W m-1 K-1
+E5	Value:T21 spec:T20 temp:T19 cem:T16

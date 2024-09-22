@@ -1,0 +1,7 @@
+T1	PF 298 310	power factor
+T2	Value 314 329	4.8 μW cm−1 K−2
+E1	Value:T2 spec:T1 cem:T4 temp:T5
+T3	PF 290 310	highest power factor
+R1	synospec Arg1:T3 Arg2:T1	
+T4	CEM 333 350	SnSe0.95–3% PbBr2
+T5	temperature 354 359	793 K

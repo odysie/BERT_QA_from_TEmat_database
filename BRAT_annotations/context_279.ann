@@ -1,0 +1,7 @@
+T1	ZT 1067 1069	zT
+T2	ZT 1059 1069	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 1073 1077	0.27
+E1	Value:T3 spec:T1 cem:T4 temp:T5
+T4	CEM 1093 1111	Cu3.97Ag0.03Sn7S16
+T5	temperature 1115 1120	700 K

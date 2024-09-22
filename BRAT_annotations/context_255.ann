@@ -1,0 +1,16 @@
+T1	ZT 1103 1105	ZT
+T2	Value 1118 1121	0.6
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 1125 1130	873 K
+T4	CEM 1147 1159	Ag–doped SnS
+T5	CEM 1147 1172	Ag–doped SnS polycrystals
+R1	synonym Arg1:T4 Arg2:T5	
+T6	ZT 1765 1767	ZT
+T7	Value 1771 1774	2.6
+E2	Value:T7 temp:T8 spec:T6 cem:T9
+T8	temperature 1778 1783	973 K
+T9	CEM 1800 1804	SnSe
+T10	CEM 1800 1819	SnSe single crystal
+T11	CEM 1800 1832	SnSe single crystal along b–axis
+R2	synonym Arg1:T9 Arg2:T10	
+R3	synonym Arg1:T10 Arg2:T11	

@@ -1,0 +1,12 @@
+T1	ZT 63 65	ZT
+T2	ZT 55 65	maximum ZT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	CEM 69 83	Ga0.2Co4Sb12.3
+T4	Value 100 104	0.56
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 108 113	623 K
+T6	ZT 802 804	ZT
+T7	Value 808 812	1.48
+E2	Value:T7 spec:T6 cem:T8 temp:T9
+T8	CEM 833 849	Ga0.2Co4Sb11.3Te
+T9	temperature 860 865	873 K

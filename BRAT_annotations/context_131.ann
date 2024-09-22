@@ -1,0 +1,10 @@
+T1	ZT 1074 1076	ZT
+T2	ZT 1058 1073	figure of merit
+R1	synospec Arg1:T2 Arg2:T1	
+T3	ZT 1058 1076	figure of merit ZT
+R2	synospec Arg1:T2 Arg2:T3	
+T4	Value 1103 1106	1.4
+E1	Value:T4 temp:T5 cem:T6 spec:T1
+T5	temperature 1110 1115	923 K
+T6	CEM 1119 1126	BiCuSeO
+T7	CEM 1119 1133	BiCuSeO system

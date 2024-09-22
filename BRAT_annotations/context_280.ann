@@ -1,0 +1,7 @@
+T1	ZT 575 577	zT
+T2	ZT 567 577	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 580 584	0.27
+E1	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 601 606	700 K
+T5	CEM 610 628	Ag-doped Cu4Sn7S16

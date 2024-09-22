@@ -1,0 +1,10 @@
+T1	temperature 103 119	room temperature
+T2	PF 120 132	power factor
+T3	Value 136 151	~25 µW cm-1 K-2
+E1	Value:T3 spec:T2 cem:T7 temp:T1
+T4	PF 165 177	power factor
+T5	PF 160 177	peak power factor
+R1	synospec Arg1:T5 Arg2:T4	
+T6	Value 186 201	~40 µW cm-1 K-2
+E2	Value:T6 cem:T7 spec:T4 temp:T1
+T7	CEM 206 222	ZrCoBi0.80Sn0.20

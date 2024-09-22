@@ -1,0 +1,15 @@
+T1	ZT 613 615	zT
+T2	Value 625 628	1.0
+E1	Value:T2 cem:T3 temp:T4 spec:T1
+T3	CEM 633 646	Yb0.19Co4Sb12
+T4	temperature 650 655	600 K
+T5	ZT 770 772	zT
+T6	Value 776 779	1.3
+E2	Value:T6 spec:T5 cem:T7 temp:T8
+T7	CEM 784 803	Yb0.25Co4Sb12/Yb2O3
+T8	temperature 807 812	850 K
+T9	ZT 821 823	zT
+T11	CEM 835 853	Yb0.285Co4Sb12.268
+T10	Value 827 830	1.3
+E3	Value:T10 spec:T9 cem:T11 temp:T12
+T12	temperature 857 862	800 K

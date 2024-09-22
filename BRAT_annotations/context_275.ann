@@ -1,0 +1,26 @@
+T1	CEM 103 126	CaMn1−xNbxO3 (x = 0.06)
+T2	CEM 103 136	CaMn1−xNbxO3 (x = 0.06) thin film
+T3	Value 154 163	0.08 Ω cm
+E1	Value:T3 temp:T4 cem:T2 spec:T5
+T4	temperature 169 185	room temperature
+T5	ElecCond 84 95	resistivity
+T6	CEM 246 252	CaMnO3
+T7	CEM 241 252	pure CaMnO3
+R1	synonym Arg1:T7 Arg2:T6	
+T8	CEM 246 262	CaMnO3 thin film
+T9	CEM 241 262	pure CaMnO3 thin film
+R2	synonym Arg1:T9 Arg2:T8	
+R3	synonym Arg1:T9 Arg2:T7	
+T10	Value 264 273	2.70 Ω cm
+E2	Value:T10 temp:T4 cem:T8 spec:T5
+T11	Seebeck 280 299	Seebeck coefficient
+T12	CEM 308 314	CaMnO3
+T13	CEM 303 314	pure CaMnO3
+T14	CEM 308 324	CaMnO3 thin film
+T15	CEM 303 324	pure CaMnO3 thin film
+R4	synonym Arg1:T13 Arg2:T15	
+R5	synonym Arg1:T15 Arg2:T14	
+R6	synonym Arg1:T14 Arg2:T12	
+T16	Value 340 351	−270 μV K−1
+E3	Value:T16 temp:T17 cem:T14 spec:T11
+T17	temperature 357 373	room temperature

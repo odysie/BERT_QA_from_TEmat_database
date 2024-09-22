@@ -1,0 +1,20 @@
+T1	ThermCond 60 61	κ
+T2	Value 71 82	4.4 W K−1m−
+E1	Value:T2 temp:T3 spec:T1 cem:T14
+T3	temperature 87 103	room temperature
+T4	CEM 216 222	HfNiSn
+T5	Value 224 236	6.3 W K−1m−1
+E2	Value:T5 cem:T4 temp:T3 spec:T1
+T6	CEM 239 245	ZrNiSn
+T7	Value 247 257	8 W K−1m−1
+E3	Value:T7 cem:T6 temp:T3 spec:T1
+T8	CEM 260 266	TiNiSn
+T9	Value 268 278	9 W K−1m−1
+E4	Value:T9 cem:T8 spec:T1 temp:T3
+T10	CEM 284 289	VFeSb
+T11	Value 291 302	13 W K−1m−1
+E5	Value:T11 spec:T1 temp:T3 cem:T10
+T12	CEM 308 314	ZrCoBi
+T13	Value 316 326	9 W K−1m−1
+E6	Value:T13 cem:T12 temp:T3 spec:T1
+T14	CEM 28 34	TmNiSb

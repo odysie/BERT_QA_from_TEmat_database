@@ -1,0 +1,12 @@
+T1	ElecCond 351 374	electrical conductivity
+T2	Value 378 390	∼5300 S cm−1
+E1	Value:T2 temp:T3 spec:T1 cem:T7
+T3	temperature 394 399	300 K
+T4	ThermCond 407 435	lattice thermal conductivity
+T5	Value 439 453	∼1.6 W m−1 K−1
+E2	Value:T5 temp:T6 cem:T7 spec:T4
+T7	CEM 477 486	LaDy-Nb20
+T6	temperature 459 472	700 to 1100 K
+T8	ThermCond 510 536	total thermal conductivity
+T9	Value 541 554	3.5 W m−1 K−1
+E3	Value:T9 spec:T8 cem:T7 temp:T6

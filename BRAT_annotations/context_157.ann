@@ -1,0 +1,7 @@
+T1	ThermCond 786 790	κlat
+T2	ThermCond 786 794	κlat,min
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 798 811	0.47 W m−1K−1
+E1	Value:T3 spec:T2 temp:T4 cem:T5
+T4	temperature 815 820	300 K
+T5	CEM 829 836	BiCuSeO

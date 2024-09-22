@@ -1,0 +1,14 @@
+T1	CEM 246 250	SnSe
+T2	CEM 246 265	SnSe single crystal
+R1	synonym Arg1:T2 Arg2:T1	
+T3	PF 282 294	power factor
+T4	PF 274 294	highest power factor
+R2	synospec Arg1:T4 Arg2:T3	
+T5	Value 298 311	10.1μWcm−1K−2
+E1	Value:T5 temp:T6 spec:T3 cem:T2
+T6	temperature 315 321	∼973 K
+T7	temperature 528 544	room temperature
+T8	Seebeck 545 564	Seebeck coefficient
+T9	Value 601 610	262.2μV/K
+E2	Value:T9 spec:T8 temp:T7 cem:T10
+T10	CEM 475 490	SnSe thin films

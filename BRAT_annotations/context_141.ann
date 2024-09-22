@@ -1,0 +1,5 @@
+T1	Seebeck 862 881	Seebeck coefficient
+T2	CEM 885 891	Fe2VAl
+T3	temperature 895 911	room temperature
+T4	Value 921 927	40 V/K
+E1	Value:T4 temp:T3 cem:T2 spec:T1

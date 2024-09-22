@@ -1,0 +1,21 @@
+T1	CEM 12 44	PbBr2-doped polycrystalline SnSe
+T2	CEM 350 369	PbBr2-doped samples
+R1	synonym Arg1:T1 Arg2:T2	
+T3	CEM 295 307	undoped SnSe
+T4	CEM 303 307	SnSe
+R2	synonym Arg1:T3 Arg2:T4	
+T5	Value 262 275	40 ± 2 S cm−1
+E1	Value:T5 temp:T6 spec:T8 cem:T1
+T6	temperature 279 284	713 K
+T7	Value 317 333	5.1 ± 0.3 S cm−1
+E2	Value:T7 cem:T4 temp:T6 spec:T8
+T8	ElecCond 235 258	electrical conductivity
+T9	PF 453 465	power factor
+T10	Value 469 490	4.8 ± 0.5 μW cm−1 K−2
+E3	Value:T10 temp:T12 cem:T2 spec:T9
+T11	Value 508 518	0.54 ± 0.1
+E4	Value:T11 temp:T12 spec:T13 cem:T2
+T12	temperature 536 541	793 K
+T13	ZT 502 504	ZT
+T14	ZT 497 504	peak ZT
+R3	synospec Arg1:T14 Arg2:T13	

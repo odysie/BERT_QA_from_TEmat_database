@@ -1,0 +1,18 @@
+T1	CEM 252 270	Ba0.25Sr1.75TiFeO6
+T2	CEM 252 288	Ba0.25Sr1.75TiFeO6 double perovskite
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Seebeck 204 205	S
+T4	Value 212 221	~800 µV/K
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 225 231	1100 K
+T6	PF 680 692	power factor
+T7	PF 694 697	S2σ
+T8	PF 680 698	power factor (S2σ)
+R2	synospec Arg1:T6 Arg2:T8	
+R3	synospec Arg1:T8 Arg2:T7	
+T9	Value 715 726	~100 µW/mK2
+E2	Value:T9 temp:T10 cem:T11 spec:T7
+T10	temperature 730 736	1200 K
+T11	CEM 741 781	BaxSr2-xTiCoO6 with x = 0.15 composition
+T12	CEM 741 755	BaxSr2-xTiCoO6
+R4	synonym Arg1:T12 Arg2:T11	

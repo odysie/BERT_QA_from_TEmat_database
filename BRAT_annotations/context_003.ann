@@ -1,0 +1,10 @@
+T1	temperature 433 438	290 K
+T2	PF 453 465	power factor
+T3	CEM 470 476	Ca3SnO
+T4	Value 480 493	160 μWm−1 K−2
+E1	Value:T4 cem:T3 spec:T2 temp:T1
+T5	CEM 504 510	Ca3PbO
+T6	Value 514 526	94 μWm−1 K−2
+E2	Value:T6 cem:T5 temp:T1 spec:T2
+T7	PF 331 343	power factor
+R1	synospec Arg1:T7 Arg2:T2	

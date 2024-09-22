@@ -1,0 +1,13 @@
+T1	CEM 721 729	Ca3Co4O9
+T2	CEM 716 729	pure Ca3Co4O9
+T3	CEM 716 737	pure Ca3Co4O9 samples
+T4	CEM 721 785	Ca3Co4O9 samples sintered and textured by spark plasma sintering
+T5	Value 787 799	170–175 μV/K
+E1	Value:T5 spec:T8 temp:T7 cem:T4
+T6	CEM 716 785	pure Ca3Co4O9 samples sintered and textured by spark plasma sintering
+R1	synonym Arg1:T6 Arg2:T4	
+R2	synonym Arg1:T4 Arg2:T3	
+R3	synonym Arg1:T3 Arg2:T2	
+R4	synonym Arg1:T2 Arg2:T1	
+T7	temperature 647 653	800 °C
+T8	Seebeck 616 617	S

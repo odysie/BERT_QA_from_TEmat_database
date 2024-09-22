@@ -1,0 +1,11 @@
+T1	ZT 101 103	ZT
+T2	Value 113 117	1.22
+E1	Value:T2 temp:T3 spec:T1 cem:T4
+T3	temperature 121 127	350 °C
+T4	CEM 132 154	Zn0.915Na0.005Cd0.08Sb
+T5	Value 193 197	0.99
+E2	Value:T5 cem:T6 spec:T1 temp:T3
+T6	CEM 202 218	Zn0.995Na0.005Sb
+T7	Value 230 234	0.45
+E3	Value:T7 cem:T8 temp:T3 spec:T1
+T8	CEM 239 243	ZnSb

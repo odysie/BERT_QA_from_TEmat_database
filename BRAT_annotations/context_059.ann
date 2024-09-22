@@ -1,0 +1,5 @@
+T1	ThermCond 4 32	lattice thermal conductivity
+T2	CEM 36 52	Ag16.7Sb30Te53.3
+T3	Value 66 83	0.6–0.7 W m−1 K−1
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 88 104	room temperature

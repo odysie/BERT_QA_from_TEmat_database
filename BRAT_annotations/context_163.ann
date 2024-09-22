@@ -1,0 +1,7 @@
+T1	ElecCond 565 588	electrical conductivity
+T2	ElecCond 557 588	maximum electrical conductivity
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 592 601	98.4 S/cm
+E1	Value:T3 spec:T1 cem:T4 temp:T5
+T4	CEM 617 629	SnSe0.8Te0.2
+T5	temperature 645 648	300

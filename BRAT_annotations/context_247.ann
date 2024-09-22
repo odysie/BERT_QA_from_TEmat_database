@@ -1,0 +1,5 @@
+T1	ZT 1238 1240	ZT
+T2	Value 1244 1248	0.74
+E1	Value:T2 spec:T1 cem:T4 temp:T3
+T3	temperature 1252 1257	800 K
+T4	CEM 1275 1292	Tb doped Ca3Co4O9

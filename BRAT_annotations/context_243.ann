@@ -1,0 +1,7 @@
+T1	ZT 734 736	ZT
+T2	Value 737 740	2.6
+E1	Value:T2 spec:T1 cem:T5 temp:T3
+T3	temperature 744 749	923 K
+T4	CEM 767 778	p-type SnSe
+T5	CEM 774 778	SnSe
+R1	synonym Arg1:T4 Arg2:T5	

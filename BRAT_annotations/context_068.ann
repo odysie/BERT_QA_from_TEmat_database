@@ -1,0 +1,12 @@
+T1	ElecCond 619 642	electrical conductivity
+T2	CEM 646 659	Cu doped MoS2
+T3	CEM 646 667	Cu doped MoS2 samples
+R1	synonym Arg1:T2 Arg2:T3	
+T4	Value 686 696	14.20 Sm−1
+E1	Value:T4 spec:T1 cem:T3 temp:T6
+T5	CEM 787 808	7.5 wt% Cu doped MoS2
+T6	temperature 812 817	420 K
+T7	Value 767 782	0.313 µWcm−1K−2
+E2	Value:T7 cem:T5 spec:T8 temp:T6
+T8	PF 751 763	power factor
+R2	synonym Arg1:T2 Arg2:T5	

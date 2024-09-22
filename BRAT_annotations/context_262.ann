@@ -1,0 +1,7 @@
+T1	CEM 1068 1075	AgSbSe2
+T2	CEM 1059 1075	Pristine AgSbSe2
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ZT 1087 1089	ZT
+T4	Value 1107 1111	0.60
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 1115 1120	623 K

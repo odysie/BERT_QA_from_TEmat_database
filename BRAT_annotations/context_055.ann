@@ -1,0 +1,14 @@
+T1	CEM 951 964	Bi0.5Sb1.5Te3
+T2	ElecCond 901 924	electrical conductivity
+T3	ElecCond 1025 1037	conductivity
+T4	Value 1052 1069	2.95 × 10^5 S m-1
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 1073 1076	300
+R1	synospec Arg1:T3 Arg2:T2	
+T6	ElecCond 1191 1209	films conductivity
+T7	Value 1211 1229	~ 0.8 × 10^5 S m-1
+E2	Value:T7 spec:T6 cem:T10 temp:T5
+T8	ElecCond 1235 1252	bulk conductivity
+T9	Value 1254 1272	~ 0.8 × 10^5 S m-1
+E3	Value:T9 cem:T10 spec:T8 temp:T5
+T10	CEM 1277 1290	Bi0.5Sb1.5Te3

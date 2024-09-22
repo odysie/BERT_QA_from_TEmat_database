@@ -1,0 +1,14 @@
+T1	ZT 410 412	ZT
+T2	Value 422 427	~ 2.2
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 449 454	915 K
+T4	CEM 459 487	PbTe–4%SrTe doped with 2% Na
+T5	ZT 514 516	ZT
+T6	Value 520 525	~ 2.5
+E2	Value:T6 cem:T7 spec:T5 temp:T3
+T7	CEM 530 551	Pb0.98Na0.02Te-8%SrTe
+T8	ZT 813 815	ZT
+T9	Value 825 830	~ 1.7
+E3	Value:T9 temp:T10 spec:T8 cem:T11
+T10	temperature 834 839	700 K
+T11	CEM 866 878	AgPbmSbTe2+m

@@ -1,0 +1,7 @@
+T3	ZT 154 156	ZT
+T4	ZT 146 156	maximum ZT
+R2	synospec Arg1:T4 Arg2:T3	
+T5	Value 166 171	~ 1.1
+E1	Value:T5 cem:T6 temp:T7 spec:T4
+T6	CEM 175 196	Pb0.99Sb0.01Se-6%MgSe
+T7	temperature 207 212	873 K

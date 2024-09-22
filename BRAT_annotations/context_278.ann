@@ -1,0 +1,7 @@
+T1	ElecCond 28 48	ionic conductivities
+T2	CEM 66 76	Li2Ni2TeO6
+T3	CEM 57 76	compound Li2Ni2TeO6
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 187 202	2 × 10−4 S cm−1
+E1	Value:T4 temp:T5 cem:T2 spec:T1
+T5	temperature 206 211	573 K

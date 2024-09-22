@@ -1,0 +1,7 @@
+T1	CEM 672 685	Na doped SnSe
+T2	CEM 672 700	Na doped SnSe single crystal
+T3	ZT 725 727	ZT
+T4	Value 741 751	0.7 to 2.0
+E1	Value:T4 spec:T3 cem:T2 temp:T5
+T5	temperature 755 769	300 K to 773 K
+R1	synonym Arg1:T2 Arg2:T1	

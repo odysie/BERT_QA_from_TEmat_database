@@ -1,0 +1,8 @@
+T1	temperature 21 37	room-temperature
+T2	ThermCond 38 66	lattice thermal conductivity
+T3	CEM 70 77	SbCrSe3
+T4	Value 81 95	1.08 W m-1 K-1
+E1	Value:T4 cem:T3 spec:T2 temp:T1
+T5	CEM 108 126	Pb0.05Sb0.95Cr5Se8
+T6	Value 130 144	0.78 W m-1 K-1
+E2	Value:T6 cem:T5 spec:T2 temp:T1

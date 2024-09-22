@@ -1,0 +1,7 @@
+T1	CEM 429 443	titanium oxide
+T2	CEM 429 460	titanium oxide prepared by HPHT
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ZT 477 479	zT
+T4	Value 495 499	0.33
+E1	Value:T4 spec:T3 cem:T2 temp:T5
+T5	temperature 503 509	700 °C

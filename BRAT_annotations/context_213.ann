@@ -1,0 +1,8 @@
+T1	temperature 3 8	25 °C
+T2	ElecCond 14 26	conductivity
+T3	CEM 36 53	[HANI]Cl/(CH2OH)2
+T4	Value 57 67	0.32 S m-1
+E1	Value:T4 cem:T3 spec:T2 temp:T1
+T5	CEM 80 98	[HANI]NO3/(CH2OH)2
+T6	Value 102 112	0.28 S m-1
+E2	Value:T6 cem:T5 spec:T2 temp:T1

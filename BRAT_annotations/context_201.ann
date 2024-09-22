@@ -1,0 +1,5 @@
+T1	CEM 180 192	Yb0.35Ga0.15
+T2	ZT 141 143	zT
+T3	Value 152 156	1.25
+E1	Value:T3 spec:T2 temp:T4 cem:T1
+T4	temperature 160 165	780 K

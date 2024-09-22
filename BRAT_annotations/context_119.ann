@@ -1,0 +1,5 @@
+T1	CEM 253 260	δ-Bi2O3
+T2	ElecCond 282 300	ionic conductivity
+T3	Value 304 311	>1 S/cm
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 315 321	800 °C

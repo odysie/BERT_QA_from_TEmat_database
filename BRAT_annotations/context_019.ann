@@ -1,0 +1,7 @@
+T1	PF 712 724	power factor
+T2	PF 707 724	peak power factor
+R1	synospec Arg1:T1 Arg2:T2	
+T3	Value 728 742	18 μW cm−1 K−2
+E1	Value:T3 spec:T1 cem:T5 temp:T4
+T4	temperature 746 751	723 K
+T5	CEM 756 780	Mg1.96Li0.04Sn0.75Ge0.25

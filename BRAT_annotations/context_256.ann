@@ -1,0 +1,14 @@
+T1	ElecCond 219 221	σ⊥
+T2	CEM 225 228	SnS
+T3	Value 232 249	3.24 × 10^-3 S/cm
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 253 258	323 K
+T5	ElecCond 1695 1720	electrical conductivities
+T6	ElecCond 1687 1720	highest electrical conductivities
+R1	synospec Arg1:T6 Arg2:T5	
+T7	Value 1724 1733	33.1 S/cm
+E2	Value:T7 spec:T5 cem:T10 temp:T9
+T8	Value 1738 1745	27 S/cm
+E3	Value:T8 spec:T5 cem:T10 temp:T9
+T9	temperature 1762 1767	823 K
+T10	CEM 1788 1799	SnS0.2Se0.8

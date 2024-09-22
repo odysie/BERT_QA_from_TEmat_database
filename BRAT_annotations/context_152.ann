@@ -1,0 +1,13 @@
+T1	ElecCond 473 496	electrical conductivity
+T2	Value 593 606	286.69 S cm−1
+E1	Value:T2 temp:T3 cem:T4 spec:T1
+T3	temperature 610 615	473 K
+T4	CEM 620 634	Ga0.2Co4Sb12.3
+T5	ElecCond 969 992	electrical conductivity
+T6	Value 1038 1048	208 S cm−1
+E2	Value:T6 cem:T7 temp:T10 spec:T5
+T7	CEM 1053 1067	Ga0.2Co4Sb12.3
+T8	Value 1071 1082	1281 S cm−1
+E3	Value:T8 cem:T9 temp:T10 spec:T5
+T9	CEM 1087 1103	Ga0.2Co4Sb11.3Te
+T10	temperature 1107 1123	room temperature

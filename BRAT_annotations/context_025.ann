@@ -1,0 +1,16 @@
+T1	Seebeck 504 523	Seebeck coefficient
+T2	Seebeck 496 523	highest Seebeck coefficient
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 527 534	90 μV/K
+E1	Value:T3 temp:T4 spec:T1 cem:T5
+T4	temperature 538 543	40 °C
+T5	CEM 548 567	pure TiO2 nanotubes
+T6	CEM 553 567	TiO2 nanotubes
+R2	synonym Arg1:T6 Arg2:T5	
+T7	CEM 577 619	TiO2 nanotubes with Te–Bi–Pb nanoparticles
+T8	Seebeck 625 652	highest Seebeck coefficient
+T9	Seebeck 633 652	Seebeck coefficient
+R3	synospec Arg1:T9 Arg2:T8	
+T10	Value 661 669	155 μV/K
+E2	Value:T10 temp:T11 spec:T8 cem:T7
+T11	temperature 673 678	70 °C

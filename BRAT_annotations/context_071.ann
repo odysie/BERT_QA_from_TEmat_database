@@ -1,0 +1,9 @@
+T1	PF 19 31	power factor
+T2	CEM 35 44	SnSe film
+T3	CEM 35 39	SnSe
+T4	CEM 35 74	SnSe film deposited at a glancing angle
+R1	synonym Arg1:T3 Arg2:T2	
+R2	synonym Arg1:T3 Arg2:T4	
+T5	Value 102 115	18.5μWcm−1K−2
+E1	Value:T5 temp:T6 cem:T4 spec:T1
+T6	temperature 119 124	478 K

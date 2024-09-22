@@ -1,0 +1,17 @@
+T1	CEM 134 159	Ca2.7Ag0.3Co4O9/Ag-10 wt%
+T2	CEM 134 169	Ca2.7Ag0.3Co4O9/Ag-10 wt% composite
+T3	ZT 189 191	ZT
+T4	Value 195 198	0.5
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 202 208	1000 K
+T6	CEM 361 378	Ca2.75Gd0.25Co4O9
+T7	CEM 361 387	Ca2.75Gd0.25Co4O9 ceramics
+R1	synonym Arg1:T6 Arg2:T7	
+R2	synonym Arg1:T1 Arg2:T2	
+T8	PF 420 423	TPF
+T9	ZT 428 430	ZT
+T10	Value 434 445	480 μW/m K2
+E2	Value:T10 spec:T8 cem:T7 temp:T12
+T11	Value 450 454	0.23
+E3	Value:T11 spec:T9 cem:T7 temp:T12
+T12	temperature 472 477	923 K

@@ -1,0 +1,9 @@
+T1	CEM 319 323	SnSe
+T2	CEM 354 361	Cu2-xSe
+T3	PF 150 162	power factor
+T4	temperature 343 348	850 K
+T5	Value 325 340	1010 µW m-1 K-2
+E1	Value:T5 temp:T4 cem:T1 spec:T3
+T6	Value 363 378	1200 µW m-1 K-2
+E2	Value:T6 temp:T7 cem:T2 spec:T3
+T7	temperature 380 386	1000 K

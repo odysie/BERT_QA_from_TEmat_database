@@ -1,0 +1,32 @@
+T1	CEM 0 31	Silicon-germanium (SiGe) alloys
+T2	CEM 373 375	Si
+T3	Value 383 396	40–50 µW/K·cm
+E1	Value:T3 spec:T4 cem:T2 temp:T6
+T4	PF 377 381	S2σ 
+T5	PF 341 353	power factor
+T6	temperature 610 616	1100 K
+T7	Value 605 606	1
+E2	Value:T7 temp:T6 cem:T1 spec:T8
+T8	ZT 599 601	ZT
+T9	CEM 570 577	pure Si
+T10	Value 556 565	150 W/m·K
+E3	Value:T10 cem:T9 temp:T6 spec:T12
+T11	CEM 503 539	highly doped n-type Si0.7Ge0.3 alloy
+T12	ThermCond 485 487	κ 
+T13	Value 489 496	4 W/m·K
+E4	Value:T13 spec:T12 temp:T6 cem:T11
+T14	CEM 1596 1616	SiGe nanowires (NWs)
+T15	CEM 1596 1610	SiGe nanowires
+R1	synonym Arg1:T15 Arg2:T14	
+T16	ThermCond 1619 1628	minimum κ
+T17	ThermCond 1627 1628	κ
+R2	synospec Arg1:T17 Arg2:T16	
+T18	Value 1632 1641	1–2 W/m·K
+E5	Value:T18 spec:T17 cem:T14 temp:T22
+T19	ZT 1648 1657	maximum Z
+T20	ZT 1656 1658	ZT
+R3	synospec Arg1:T20 Arg2:T19	
+T21	Value 1662 1666	0.46
+E6	Value:T21 temp:T22 spec:T20 cem:T14
+T22	temperature 1670 1675	450 K
+R4	synospec Arg1:T4 Arg2:T5	

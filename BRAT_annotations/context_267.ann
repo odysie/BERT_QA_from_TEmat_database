@@ -1,0 +1,9 @@
+T1	CEM 201 209	SnSe0.95
+T2	CEM 192 209	pristine SnSe0.95
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ZT 223 225	ZT
+T4	ZT 215 225	maximum ZT
+R2	synospec Arg1:T4 Arg2:T3	
+T5	Value 235 240	∼0.14
+E1	Value:T5 temp:T6 spec:T3 cem:T1
+T6	temperature 244 249	793 K

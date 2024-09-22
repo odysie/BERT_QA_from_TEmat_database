@@ -1,0 +1,9 @@
+T1	ZT 876 878	ZT
+T2	CEM 892 926	screen-printed Bi2Te2.7Se0.3 films
+T3	CEM 907 920	Bi2Te2.7Se0.3
+T4	CEM 907 926	Bi2Te2.7Se0.3 films
+R1	synonym Arg1:T2 Arg2:T3	
+R2	synonym Arg1:T2 Arg2:T4	
+T5	Value 955 959	0.90
+E1	Value:T5 temp:T6 cem:T2 spec:T1
+T6	temperature 963 979	room temperature

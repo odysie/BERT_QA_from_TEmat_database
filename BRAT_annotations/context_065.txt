@@ -1,0 +1,1 @@
+The calculated lattice thermal conductivity of GaGeTe is 58 Wm−1K−1 at room temperature ((d)), which is slightly larger than β-NAs (38.46 Wm−1K−1), β-NSb (34.66 Wm−1K−1) [] but much lower than that of monolayer MoS2 (85–112 Wm−1K−1) [,], graphene (∼2000 Wm−1K−1) [,], 2H

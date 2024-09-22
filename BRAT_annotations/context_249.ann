@@ -1,0 +1,11 @@
+T1	temperature 775 791	room temperature
+T2	CEM 820 829	14 °C SnS
+T3	CEM 831 840	30 °C SnS
+T4	CEM 845 863	70 °C SnS nanofilm
+T5	Value 869 885	0.020 Ohm-1 cm-1
+E1	Value:T5 cem:T2 spec:T8 temp:T1
+T6	Value 887 903	0.025 Ohm-1 cm-1
+E2	Value:T6 cem:T3 spec:T8 temp:T1
+T8	ElecCond 800 812	conductivity
+T7	Value 908 924	0.037 Ohm-1 cm-1
+E3	Value:T7 cem:T4 spec:T8 temp:T1

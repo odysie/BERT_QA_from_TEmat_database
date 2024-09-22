@@ -1,0 +1,7 @@
+T1	CEM 967 1002	ZrNiPb based half-heusler materials
+T2	ZT 1020 1046	thermoelectric performance
+T3	ZT 1048 1050	ZT
+R1	synospec Arg1:T2 Arg2:T3	
+T4	Value 1051 1056	∼ 0.8
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 1060 1065	800 K

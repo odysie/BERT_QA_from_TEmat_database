@@ -1,0 +1,7 @@
+T1	Seebeck 380 381	S
+T2	Seebeck 368 381	T-dependent S
+R1	synospec Arg1:T2 Arg2:T1	
+T3	CEM 385 393	SrAl2Si2
+T4	Value 451 459	100 μV/K
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 465 470	130 K

@@ -1,0 +1,5 @@
+T1	Seebeck 600 601	S
+T2	temperature 602 618	room temperature
+T3	CEM 632 642	Ca14MgSb11
+T4	Value 644 652	125 μV/K
+E1	Value:T4 cem:T3 temp:T2 spec:T1

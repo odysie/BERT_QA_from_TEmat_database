@@ -1,0 +1,5 @@
+T1	ZT 598 600	zT
+T2	Value 604 608	0.32
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 612 617	750 K
+T4	CEM 622 637	Mg2Ge0.97Bi0.03

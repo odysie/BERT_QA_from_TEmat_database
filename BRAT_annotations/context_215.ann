@@ -1,0 +1,13 @@
+T1	CEM 65 77	Bi-Sb alloys
+T2	CEM 52 77	fine-grained Bi-Sb alloys
+T3	CEM 45 77	n-type fine-grained Bi-Sb alloys
+R1	synonym Arg1:T3 Arg2:T2	
+R2	synonym Arg1:T3 Arg2:T1	
+T4	ZT 138 140	ZT
+T5	ZT 122 137	figure of merit
+T6	ZT 122 140	figure of merit ZT
+R3	synospec Arg1:T5 Arg2:T6	
+R4	synospec Arg1:T6 Arg2:T4	
+T7	Value 146 149	0.6
+E1	Value:T7 temp:T8 spec:T4 cem:T1
+T8	temperature 153 159	~125 K

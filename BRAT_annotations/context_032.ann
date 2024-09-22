@@ -1,0 +1,5 @@
+T1	CEM 173 189	Cu0.94Co0.06FeS2
+T2	Value 143 147	0.22
+E1	Value:T2 temp:T4 spec:T3 cem:T1
+T3	ZT 138 140	ZT
+T4	temperature 151 156	675 K

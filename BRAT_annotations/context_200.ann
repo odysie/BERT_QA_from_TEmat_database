@@ -1,0 +1,41 @@
+T1	CEM 198 206	Ca3Co4O9
+T2	CEM 194 206	SPS Ca3Co4O9
+R1	synonym Arg1:T2 Arg2:T1	
+T3	CEM 436 449	Zn0.98Al0.02O
+T4	CEM 433 449	CS Zn0.98Al0.02O
+R2	synonym Arg1:T4 Arg2:T3	
+T5	Seebeck 458 459	σ
+T6	Value 462 469	83 S/cm
+E1	Value:T6 temp:T9 spec:T5 cem:T4
+T7	Seebeck 474 475	S
+T8	Value 478 487	-268 μV/K
+E2	Value:T8 temp:T9 spec:T7 cem:T4
+T9	temperature 491 497	800 °C
+T10	ZT 522 524	ZT
+T11	Value 527 532	0.127
+E3	Value:T11 spec:T10 temp:T9 cem:T4
+T12	Seebeck 309 310	S
+T13	Value 313 321	172 μV/K
+E4	Value:T13 spec:T12 temp:T14 cem:T1
+T14	temperature 325 331	800 °C
+T15	ThermCond 339 359	thermal conductivity
+T16	ThermCond 360 361	κ
+T17	ThermCond 339 361	thermal conductivity κ
+R3	synospec Arg1:T17 Arg2:T15	
+R4	synospec Arg1:T17 Arg2:T16	
+T18	Value 364 374	2.00 W/m×K
+E5	Value:T18 temp:T14 spec:T15 cem:T1
+T19	ZT 379 394	figure of merit
+T20	ZT 395 397	ZT
+T21	ZT 379 397	figure of merit ZT
+R5	synospec Arg1:T21 Arg2:T19	
+R6	synospec Arg1:T21 Arg2:T20	
+T22	Value 400 404	0.23
+E6	Value:T22 spec:T20 temp:T14 cem:T2
+T23	ElecCond 272 273	σ
+T24	Value 276 284	144 S/cm
+E7	Value:T24 spec:T23 temp:T14 cem:T1
+T25	Seebeck 289 308	Seebeck coefficient
+T26	Seebeck 289 310	Seebeck coefficient S
+R7	synospec Arg1:T25 Arg2:T26	
+R8	synospec Arg1:T25 Arg2:T12	

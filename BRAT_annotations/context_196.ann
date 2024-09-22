@@ -1,0 +1,10 @@
+T1	ZT 4 6	ZT
+T2	CEM 20 30	CoCp2@SWNT
+T3	CEM 20 35	CoCp2@SWNT film
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 37 42	0.157
+E1	Value:T4 cem:T3 temp:T5 spec:T1
+T5	temperature 46 51	320 K
+T6	ThermCond 176 196	thermal conductivity
+T7	Value 198 212	0.15 W m-1 K-1
+E2	Value:T7 spec:T6 temp:T5 cem:T3

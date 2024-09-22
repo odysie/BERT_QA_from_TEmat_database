@@ -1,0 +1,10 @@
+T1	CEM 143 155	pristine BST
+T2	ThermCond 134 135	κ
+T3	Value 197 209	1.14 Wm−1K−1
+E1	Value:T3 temp:T4 cem:T1 spec:T2
+T4	temperature 213 218	323 K
+T5	ThermCond 1051 1053	κl
+T6	Value 1057 1069	0.30 Wm−1K−1
+E2	Value:T6 temp:T7 spec:T5 cem:T8
+T7	temperature 1073 1078	321 K
+T8	CEM 1083 1106	annealed 0.22wt.%Cu/BST

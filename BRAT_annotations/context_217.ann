@@ -1,0 +1,14 @@
+T1	ElecCond 4 16	conductivity
+T2	CEM 24 35	Na0.2Cu1.8S
+T3	CEM 24 44	Na0.2Cu1.8S compound
+R1	synonym Arg1:T2 Arg2:T3	
+T4	temperature 48 64	room temperature
+T5	Value 147 157	800 S cm-1
+E1	Value:T5 temp:T4 cem:T3 spec:T1
+T6	CEM 159 172	Na0.05Cu1.95S
+T7	CEM 177 190	Na0.15Cu1.85S
+T8	ElecCond 217 229	conductivity
+T9	Value 239 248	60 S cm-1
+E2	Value:T9 temp:T10 spec:T8 cem:T7
+E3	Value:T9 temp:T10 spec:T8 cem:T6
+T10	temperature 252 271	ambient temperature

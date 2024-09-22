@@ -1,0 +1,26 @@
+T1	CEM 62 73	CoCp2@SWNTs
+T2	CEM 30 60	cobaltocene-encapsulated SWNTs
+T3	CEM 30 74	cobaltocene-encapsulated SWNTs (CoCp2@SWNTs)
+R1	synonym Arg1:T2 Arg2:T3	
+R2	synonym Arg1:T3 Arg2:T1	
+T4	ElecCond 117 140	electrical conductivity
+T5	Value 142 154	43,200 S m-1
+E1	Value:T5 spec:T4 cem:T1 temp:T8
+T6	Seebeck 178 197	Seebeck coefficient
+T7	Value 199 211	-41.8 μV K-1
+E2	Value:T7 temp:T8 spec:T6 cem:T1
+T8	temperature 216 221	320 K
+T9	Value 316 331	75.4 μW m-1 K-2
+E3	Value:T9 spec:T10 cem:T1 temp:T11
+T10	PF 270 282	power factor
+T11	temperature 391 396	320 K
+T12	CEM 359 370	empty-SWNTs
+T13	Value 372 386	9.1 μW m-1 K-2
+E4	Value:T13 cem:T12 temp:T11 spec:T10
+T14	ZT 402 404	ZT
+T15	CEM 418 428	CoCp2@SWNT
+T16	CEM 418 433	CoCp2@SWNT film
+R3	synonym Arg1:T15 Arg2:T16	
+T17	Value 435 440	0.157
+E5	Value:T17 temp:T18 cem:T16 spec:T14
+T18	temperature 444 449	320 K

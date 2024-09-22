@@ -1,0 +1,7 @@
+T1	CEM 443 452	2D GaGeTe
+T2	CEM 446 452	GaGeTe
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ThermCond 465 467	κL
+T4	Value 471 481	58 Wm−1K−1
+E1	Value:T4 spec:T3 cem:T2 temp:T5
+T5	temperature 485 501	room temperature

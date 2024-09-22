@@ -1,0 +1,5 @@
+T1	CEM 4 36	LAMOX family of oxide conductors
+T2	ElecCond 96 119	oxygen ion conductivity
+T3	Value 123 133	∼0.03 S/cm
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 137 143	720 °C

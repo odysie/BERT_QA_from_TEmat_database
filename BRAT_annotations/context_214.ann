@@ -1,0 +1,8 @@
+T1	Seebeck 602 621	Seebeck coefficient
+T2	CEM 625 639	PEDOT:PSS/GQDs
+T3	Value 651 659	7172 S/m
+E1	Value:T3 spec:T5 cem:T2 temp:T6
+T4	Value 664 673	14.6 μV/K
+E2	Value:T4 cem:T2 spec:T1 temp:T6
+T5	ElecCond 574 597	electrical conductivity
+T6	temperature 552 568	room temperature

@@ -1,0 +1,5 @@
+T1	ThermCond 520 522	κL
+T2	CEM 533 545	Cu2Se0.5S0.5
+T3	temperature 551 588	room temperature to high temperatures
+T4	Value 623 640	0.3–0.4 W m−1 K−1
+E1	Value:T4 temp:T3 cem:T2 spec:T1

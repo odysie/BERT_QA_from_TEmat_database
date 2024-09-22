@@ -1,0 +1,9 @@
+T1	ElecCond 162 185	electrical conductivity
+T2	CEM 206 220	In0.2Co4Sb12qu
+T3	Value 233 244	1200 S cm-1
+E1	Value:T3 cem:T2 spec:T1 temp:T4
+T4	temperature 254 259	350 K
+T5	CEM 363 375	In0.2Co4Sb12
+T6	Value 456 466	950 S cm-1
+E2	Value:T6 spec:T1 cem:T5 temp:T7
+T7	temperature 476 481	350 K

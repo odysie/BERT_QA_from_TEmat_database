@@ -1,0 +1,17 @@
+T1	ThermCond 9 39	lattice thermal conductivities
+T2	ThermCond 40 42	κL
+T3	ThermCond 9 42	lattice thermal conductivities,κL
+R1	synospec Arg1:T3 Arg2:T1	
+R2	synospec Arg1:T1 Arg2:T2	
+T4	temperature 46 62	room temperature
+T6	Value 127 141	~0.6 W m-1 K-1
+E1	Value:T6 cem:T5 temp:T4 spec:T2
+T5	CEM 145 153	CaCd2Sb2
+T7	Value 157 171	~4.5 W m-1 K-1
+E2	Value:T7 cem:T8 temp:T4 spec:T2
+T8	CEM 175 183	CaMg2Sb2
+T9	CEM 197 203	Mg3Sb2
+T10	temperature 265 281	room-temperature
+T11	ThermCond 282 284	κL
+T12	Value 294 311	1.0–1.5 W m-1 K-1
+E3	Value:T12 spec:T11 temp:T10 cem:T9

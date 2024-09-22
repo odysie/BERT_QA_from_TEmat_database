@@ -1,0 +1,27 @@
+T1	CEM 713 732	La0.5Co4Sb11.7Te0.3
+T2	CEM 713 739	La0.5Co4Sb11.7Te0.3 sample
+R1	synonym Arg1:T1 Arg2:T2	
+T3	Seebeck 762 781	Seebeck coefficient
+T4	Seebeck 753 781	absolute Seebeck coefficient
+R2	synospec Arg1:T4 Arg2:T3	
+T5	Value 785 793	300 μV/K
+E1	Value:T5 temp:T6 spec:T3 cem:T2
+T6	temperature 810 815	404 K
+T7	ElecCond 933 955	electrical resistivity
+T8	ElecCond 925 955	minimum electrical resistivity
+R3	synospec Arg1:T8 Arg2:T7	
+T9	Value 959 967	19.7 μΩm
+E2	Value:T9 temp:T10 spec:T7 cem:T11
+T10	temperature 984 989	501 K
+T11	CEM 1003 1022	La0.5Co4Sb11.5Te0.5
+T12	CEM 1003 1029	La0.5Co4Sb11.5Te0.5 sample
+R4	synonym Arg1:T11 Arg2:T12	
+T13	CEM 1251 1270	La0.5Co4Sb11.5Te0.5
+T14	temperature 1232 1237	792 K
+T15	ZT 1205 1207	ZT
+T16	ZT 1188 1203	figure of merit
+T17	ZT 1188 1207	figure of merit, ZT
+R5	synospec Arg1:T17 Arg2:T16	
+R6	synospec Arg1:T17 Arg2:T15	
+T18	Value 1210 1214	0.47
+E3	Value:T18 spec:T15 temp:T14 cem:T13

@@ -1,0 +1,1 @@
+Due to the large improvement of the power factor, the ZT value of the TiS2(TBA)0.025(HA)0.012 sample was improved to be 0.33 at 413 K, which is among the highest in the n-type flexible thermoelectric materials. It shows great potential in flexible thermoelectric modules as a counterpart of the p-type conducting polymers, such as PEDOT-PSS.

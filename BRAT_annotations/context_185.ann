@@ -1,0 +1,18 @@
+T1	CEM 230 240	Ag2Se film
+T2	CEM 230 235	Ag2Se
+R1	synonym Arg1:T2 Arg2:T1	
+T3	PF 260 272	power factor
+T4	Value 276 290	987.4 μWm-1K-2
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 294 299	300 K
+T6	ZT 413 415	ZT
+T7	ZT 408 415	high-ZT
+R2	synospec Arg1:T7 Arg2:T6	
+T8	CEM 471 475	SnSe
+T9	Value 477 490	~900 μWm-1K-2
+E2	Value:T9 temp:T10 cem:T8 spec:T7
+T10	temperature 494 499	773 K
+T11	CEM 505 512	Cu2-xSe
+T12	Value 514 527	1200 μWm-1K-2
+E3	Value:T12 temp:T13 cem:T11 spec:T6
+T13	temperature 531 537	1000 K

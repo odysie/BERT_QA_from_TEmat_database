@@ -1,0 +1,11 @@
+T1	CEM 1711 1727	CuCr0.98Mg0.02O2
+T2	ElecCond 1696 1707	resistivity
+T3	temperature 1731 1747	room temperature
+T4	Value 1762 1768	1 Ω cm
+E1	Value:T4 temp:T3 cem:T1 spec:T2
+T5	Seebeck 1862 1873	thermopower
+T6	temperature 1877 1893	room temperature
+T7	Value 1938 1946	280 μV/K
+E2	Value:T7 cem:T1 temp:T6 spec:T5
+T8	Value 1975 1983	100 μV/K
+E3	Value:T8 cem:T1 temp:T6 spec:T5

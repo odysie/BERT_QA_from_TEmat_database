@@ -1,0 +1,9 @@
+T1	temperature 1065 1081	room temperature
+T2	ElecCond 1082 1093	resistivity
+T3	Value 1097 1112	2.25 × 10−5 Ω m
+E1	Value:T3 cem:T5 spec:T2 temp:T1
+T4	CEM 1134 1140	Zn4Sb3
+T5	CEM 1134 1147	Zn4Sb3 sample
+R1	synonym Arg1:T4 Arg2:T5	
+T6	Value 1253 1267	0.8 × 10−5 Ω m
+E2	Value:T6 temp:T1 spec:T2 cem:T4

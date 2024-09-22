@@ -1,0 +1,7 @@
+T1	ZT 54 56	ZT
+T2	CEM 70 93	TiS2(TBA)0.025(HA)0.012
+T3	CEM 70 100	TiS2(TBA)0.025(HA)0.012 sample
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 120 124	0.33
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 128 133	413 K

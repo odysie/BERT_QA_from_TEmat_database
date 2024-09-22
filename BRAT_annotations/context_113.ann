@@ -1,0 +1,18 @@
+T1	CEM 322 328	GdNiSb
+T2	CEM 322 337	GdNiSb compound
+R1	synonym Arg1:T1 Arg2:T2	
+T3	ElecCond 374 385	resistivity
+T4	Value 387 391	8 μΩ
+E1	Value:T4 temp:T5 spec:T3 cem:T2
+T5	temperature 397 401	80 K
+T6	Value 498 506	3.9 μΩ m
+E2	Value:T6 temp:T7 cem:T1 spec:T3
+T7	temperature 510 515	380 K
+T8	Seebeck 522 541	Seebeck coefficient
+T9	Value 609 616	70 µV/K
+E3	Value:T9 temp:T11 cem:T12 spec:T8
+T10	Value 618 627	12.8 µV/K
+E4	Value:T10 temp:T11 cem:T13 spec:T8
+T11	temperature 631 636	380 K
+T12	CEM 641 647	LuNiSb
+T13	CEM 652 658	GdNiSb

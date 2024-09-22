@@ -1,0 +1,25 @@
+T1	ZT 281 283	ZT
+T2	Value 287 291	∼1.4
+E1	Value:T2 cem:T3 spec:T1 temp:T6
+T3	CEM 308 354	heavily doped PbTe with Na content close to 2%
+T4	CEM 316 354	doped PbTe with Na content close to 2%
+T5	CEM 322 354	PbTe with Na content close to 2%
+R1	synonym Arg1:T3 Arg2:T4	
+R2	synonym Arg1:T4 Arg2:T5	
+T6	temperature 246 262	room temperature
+T7	ZT 706 708	ZT
+T8	CEM 712 737	heavily doped p-type PbTe
+T9	CEM 720 737	doped p-type PbTe
+R3	synonym Arg1:T8 Arg2:T9	
+T10	Value 741 745	∼1.7
+E2	Value:T10 temp:T11 spec:T7 cem:T9
+T11	temperature 749 754	750 K
+T12	ZT 879 881	ZT
+T13	CEM 886 916	non-nanostructured p-type PbTe
+T14	CEM 912 916	PbTe
+T15	CEM 905 916	p-type PbTe
+R4	synonym Arg1:T13 Arg2:T15	
+R5	synonym Arg1:T15 Arg2:T14	
+T16	Value 918 922	∼1.7
+E3	Value:T16 temp:T17 cem:T14 spec:T12
+T17	temperature 926 931	810 K

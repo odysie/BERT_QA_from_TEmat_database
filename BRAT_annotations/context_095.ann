@@ -1,0 +1,17 @@
+T1	PF 327 340	power factors
+T3	CEM 356 363	TiO1.80
+T2	Value 385 401	5.63 μW cm−1 K−2
+E1	Value:T2 temp:T4 cem:T3 spec:T1
+T4	temperature 405 411	700 °C
+T5	Value 494 508	1.60 W m−1 K−1
+E2	Value:T5 temp:T6 cem:T7 spec:T13
+T6	temperature 512 518	700 °C
+T7	CEM 523 530	TiO1.76
+T8	ZT 543 572	dimensionless figure of merit
+T9	ZT 557 572	figure of merit
+R1	synospec Arg1:T8 Arg2:T9	
+T10	Value 579 583	0.33
+E3	Value:T10 spec:T9 temp:T11 cem:T12
+T11	temperature 599 605	700 °C
+T12	CEM 609 616	TiO1.76
+T13	ThermCond 444 464	thermal conductivity

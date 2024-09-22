@@ -1,0 +1,18 @@
+T1	CEM 383 390	CeZnSbO
+T2	Seebeck 360 379	Seebeck coefficient
+T3	Value 392 400	129 μV/K
+E1	Value:T3 temp:T4 cem:T1 spec:T2
+T4	temperature 404 409	330 K
+T5	CEM 445 452	BiCuSeO
+T6	Value 454 462	350 μV/K
+E2	Value:T6 cem:T5 temp:T7 spec:T2
+T7	temperature 466 471	293 K
+T8	CEM 509 516	CeZnSbO
+T9	ElecCond 482 504	electrical conductivit
+T10	Value 518 528	1300 S m−1
+E3	Value:T10 cem:T8 spec:T9 temp:T11
+T11	temperature 532 537	330 K
+T12	CEM 574 581	BiCuSeO
+T13	Value 583 592	470 S m−1
+E4	Value:T13 cem:T12 temp:T14 spec:T9
+T14	temperature 596 601	293 K

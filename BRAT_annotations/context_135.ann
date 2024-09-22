@@ -1,0 +1,7 @@
+T1	ZT 421 423	zT
+T2	ZT 413 423	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 427 431	∼2.2
+E1	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 435 440	820 K
+T5	CEM 457 482	PbTe0.8Se0.2 with 8% MgTe

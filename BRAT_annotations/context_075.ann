@@ -1,0 +1,11 @@
+T1	ZT 769 771	ZT
+T2	Value 781 788	0.8–1.2
+E1	Value:T2 spec:T1 cem:T5 temp:T8
+T3	Value 851 854	1.2
+E2	Value:T3 cem:T6 temp:T8 spec:T1
+T4	CEM 822 826	BAgX
+T5	CEM 815 826	n-type BAgX
+R1	synonym Arg1:T5 Arg2:T4	
+T6	CEM 870 875	BAgZr
+T7	CEM 863 874	n-type BAgZ
+T8	temperature 951 956	500 K

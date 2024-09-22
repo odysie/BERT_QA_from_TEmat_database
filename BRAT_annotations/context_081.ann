@@ -1,0 +1,26 @@
+T1	PF 294 306	power factor
+T2	Value 310 328	~ 15.4 μW cm−1 K−2
+E1	Value:T2 spec:T1 temp:T5 cem:T6
+T3	ZT 341 343	ZT
+T4	Value 347 352	~ 0.9
+E2	Value:T4 temp:T5 cem:T6 spec:T3
+T5	temperature 356 361	873 K
+T6	CEM 365 379	Pb0.99Sb0.01Se
+T7	temperature 583 588	300 K
+T8	ThermCond 559 579	thermal conductivity
+T9	temperature 590 595	873 K
+T10	Value 631 645	~ 4.6 Wm−1 K−1
+E3	Value:T10 spec:T8 temp:T7 cem:T12
+T11	Value 647 659	1.5 Wm−1 K−1
+E4	Value:T11 temp:T9 spec:T8 cem:T12
+T12	CEM 665 679	Pb0.99Sb0.01Se
+T13	Value 683 697	~ 2.9 Wm−1 K−1
+E5	Value:T13 temp:T7 spec:T8 cem:T15
+T14	Value 699 711	1.1 Wm−1 K−1
+E6	Value:T14 temp:T9 spec:T8 cem:T15
+T15	CEM 717 738	Pb0.99Sb0.01Se-6%MgSe
+T16	ZT 795 797	ZT
+T17	Value 801 806	~ 1.1
+E7	Value:T17 spec:T16 temp:T18 cem:T19
+T18	temperature 823 828	873 K
+T19	CEM 833 854	Pb0.99Sb0.01Se-6%MgSe

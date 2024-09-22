@@ -1,0 +1,5 @@
+T1	CEM 341 354	Tl doped PbTe
+T2	ZT 461 463	ZT
+T3	Value 475 478	1.5
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 482 487	773 K

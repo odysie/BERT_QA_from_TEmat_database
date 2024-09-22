@@ -1,0 +1,18 @@
+T1	CEM 859 865	Bi2Te3
+T2	CEM 851 865	undoped Bi2Te3
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ThermCond 871 872	κ
+T4	Value 909 925	1.28 W m- 1 K- 1
+E1	Value:T4 spec:T3 cem:T1 temp:T5
+T5	temperature 929 934	300 K
+T6	Value 938 954	2.09 W m- 1 K- 1
+E2	Value:T6 temp:T7 spec:T3 cem:T1
+T7	temperature 958 963	503 K
+T8	ThermCond 969 970	κ
+T9	CEM 978 991	Pb0.08 sample
+T10	Value 1021 1037	0.87 W m- 1 K- 1
+E3	Value:T10 cem:T9 spec:T8 temp:T11
+T11	temperature 1041 1046	423 K
+T12	Value 1069 1085	0.96 W m- 1 K- 1
+E4	Value:T12 temp:T13 cem:T9 spec:T8
+T13	temperature 1089 1094	503 K

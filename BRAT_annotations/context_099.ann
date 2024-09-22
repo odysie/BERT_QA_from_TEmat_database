@@ -1,0 +1,60 @@
+T1	CEM 926 959	n-type Bi2Te3 ultrathin nanowires
+T2	CEM 933 939	Bi2Te3
+T3	CEM 933 959	Bi2Te3 ultrathin nanowires
+R1	synonym Arg1:T2 Arg2:T1	
+R2	synonym Arg1:T1 Arg2:T3	
+T5	Value 997 1001	0.96
+E2	Value:T5 temp:T6 cem:T2 spec:T4
+T6	temperature 1005 1010	380 K
+T4	ZT 991 993	ZT
+T7	CEM 1031 1049	Bi2Te3 with Indium
+T8	CEM 1024 1049	n-type Bi2Te3 with Indium
+T9	CEM 1015 1049	alloy of n-type Bi2Te3 with Indium
+R3	synonym Arg1:T9 Arg2:T8	
+R4	synonym Arg1:T8 Arg2:T7	
+T10	ZT 1145 1147	ZT
+T11	Value 1151 1155	∼1.1
+E1	Value:T11 temp:T12 spec:T10 cem:T7
+T12	temperature 1159 1164	625 K
+T13	CEM 1213 1248	flexible n-type tungsten composites
+T14	CEM 1229 1248	tungsten composites
+T15	CEM 1222 1248	n-type tungsten composites
+R5	synonym Arg1:T13 Arg2:T15	
+R6	synonym Arg1:T15 Arg2:T14	
+T16	Seebeck 1266 1286	Seebeck coefficients
+T17	Value 1304 1314	−12.3 μV/K
+E3	Value:T17 temp:T18 spec:T16 cem:T14
+T18	temperature 1319 1324	300 K
+T19	CEM 1329 1377	Crackless Bi2Te3 film doped with n-type impurity
+T20	CEM 1339 1377	Bi2Te3 film doped with n-type impurity
+T21	CEM 1339 1418	Bi2Te3 film doped with n-type impurity fabricated by electrophoretic deposition
+T22	CEM 1329 1418	Crackless Bi2Te3 film doped with n-type impurity fabricated by electrophoretic deposition
+R7	synonym Arg1:T19 Arg2:T20	
+R8	synonym Arg1:T20 Arg2:T22	
+R9	synonym Arg1:T20 Arg2:T21	
+T23	Seebeck 1455 1456	α
+T24	Value 1461 1471	−189 μVK−1
+E4	Value:T24 temp:T25 spec:T23 cem:T21
+T25	temperature 1475 1480	500 K
+T26	ZT 1485 1486	Z
+T27	Value 1494 1498	0.83
+E5	Value:T27 spec:T26 cem:T28 temp:T32
+T28	CEM 1567 1580	n-type Bi2Te3
+T29	CEM 1574 1580	Bi2Te3
+T30	CEM 1574 1590	Bi2Te3 compounds
+T31	CEM 1567 1590	n-type Bi2Te3 compounds
+R10	synonym Arg1:T28 Arg2:T29	
+R11	synonym Arg1:T29 Arg2:T31	
+R12	synonym Arg1:T31 Arg2:T30	
+T32	temperature 1594 1599	473 K
+T33	CEM 1620 1633	n-type Bi2Te3
+T34	CEM 1627 1633	Bi2Te3
+T35	ZT 1707 1709	ZT
+T36	Value 1713 1718	∼0.57
+E6	Value:T36 temp:T37 spec:T35 cem:T34
+T37	temperature 1722 1727	375 K
+T38	CEM 1791 1835	Bi2Te3 with reduced graphene oxide composite
+T39	ZT 1866 1868	ZT
+T40	Value 1870 1874	0.29
+E7	Value:T40 temp:T41 spec:T39 cem:T38
+T41	temperature 1879 1895	room temperature

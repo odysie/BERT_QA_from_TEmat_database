@@ -1,0 +1,11 @@
+T1	PF 1283 1295	power factor
+T2	Value 1299 1316	~4.74 μW cm-1 K-2
+E1	Value:T2 spec:T1 cem:T3 temp:T4
+T3	CEM 1325 1344	Bi0.925Ca0.075CuSeO
+T4	temperature 1355 1360	923 K
+T5	Value 1383 1400	~4.10 μW cm-1 K-2
+E2	Value:T5 temp:T6 cem:T7 spec:T1
+T6	temperature 1404 1409	923 K
+T7	CEM 1418 1430	BiCu0.975SeO
+T8	CEM 1418 1437	BiCu0.975SeO sample
+R1	synonym Arg1:T7 Arg2:T8	

@@ -1,0 +1,9 @@
+T1	CEM 897 913	AgSbTe1.85Se0.15
+T2	CEM 897 957	AgSbTe1.85Se0.15 with a very fine polycrystalline grain size
+T3	CEM 897 966	AgSbTe1.85Se0.15 with a very fine polycrystalline grain size of ∼2 μm
+R1	synonym Arg1:T1 Arg2:T2	
+R2	synonym Arg1:T2 Arg2:T3	
+T4	ThermCond 1008 1036	lattice thermal conductivity
+T5	Value 1040 1054	<0.4 W m−1 K−1
+E1	Value:T5 temp:T6 spec:T4 cem:T3
+T6	temperature 1058 1074	room temperature

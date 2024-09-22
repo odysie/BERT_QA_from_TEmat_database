@@ -1,0 +1,7 @@
+T1	ZT 567 569	ZT
+T2	ZT 559 569	maximum ZT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 573 577	0.55
+E1	Value:T3 spec:T1 cem:T4 temp:T5
+T4	CEM 598 614	Mn0.925Cu0.075Te
+T5	temperature 625 630	773 K

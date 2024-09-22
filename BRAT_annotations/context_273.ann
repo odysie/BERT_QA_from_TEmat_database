@@ -1,0 +1,18 @@
+T1	ThermCond 40 60	thermal conductivity
+T2	Value 76 89	7.8 W m−1 K−1
+E1	Value:T2 temp:T3 cem:T5 spec:T1
+T3	temperature 93 98	300 K
+T4	CEM 108 114	CaMnO3
+T5	CEM 103 114	pure CaMnO3
+R1	synonym Arg1:T5 Arg2:T4	
+T6	CEM 519 525	CaMnO3
+T7	CEM 519 530	CaMnO3 film
+T8	CEM 514 530	pure CaMnO3 film
+T9	CEM 514 530	pure CaMnO3 film
+R2	synonym Arg1:T6 Arg2:T7	
+R3	synonym Arg1:T7 Arg2:T9	
+R4	synonym Arg1:T6 Arg2:T8	
+T10	Value 546 559	2.2 W m−1 K−1
+E2	Value:T10 temp:T11 cem:T8 spec:T12
+T11	temperature 563 579	room temperature
+T12	ThermCond 486 506	thermal conductivity

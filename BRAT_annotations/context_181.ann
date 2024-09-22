@@ -1,0 +1,51 @@
+T1	CEM 188 198	Yb14MnSb11
+T2	ZT 241 243	ZT
+T3	Value 245 253	185 µV/K
+E1	Value:T3 temp:T4 spec:T6 cem:T1
+T4	temperature 257 263	1275 K
+T5	Seebeck 269 290	Seebeck’s coefficient
+T6	Seebeck 292 293	S
+R1	synospec Arg1:T5 Arg2:T6	
+T7	Seebeck 269 294	Seebeck’s coefficient (S)
+R2	synospec Arg1:T5 Arg2:T7	
+T8	Value 296 299	1.0
+E2	Value:T8 temp:T9 cem:T1 spec:T2
+T9	temperature 303 309	1275 K
+T10	CEM 608 619	Ba8Ga16Ge30
+T11	CEM 608 625	Ba8Ga16Ge30 alloy
+R3	synonym Arg1:T11 Arg2:T10	
+T12	ZT 649 651	ZT
+T13	Value 655 659	1.35
+E3	Value:T13 temp:T14 spec:T12 cem:T11
+T14	temperature 663 668	900 K
+T15	ZT 690 692	ZT
+T16	ZT 677 692	extrapolated ZT
+R4	synospec Arg1:T16 Arg2:T15	
+T17	Value 699 703	1.63
+E4	Value:T17 temp:T18 spec:T15 cem:T10
+T18	temperature 707 713	1100 K
+T19	Seebeck 733 734	S
+T20	Value 738 753	45 and 300 μV/K
+E5	Value:T20 temp:T21 spec:T19 cem:T10
+T21	temperature 766 779	300 and 900 K
+T22	CEM 992 1005	Bi2Te3/Sb2Te3
+T23	CEM 992 1019	Bi2Te3/Sb2Te3 superlattices
+T24	CEM 985 1019	p-type Bi2Te3/Sb2Te3 superlattices
+T25	CEM 985 1005	p-type Bi2Te3/Sb2Te3
+R5	synonym Arg1:T25 Arg2:T22	
+R6	synonym Arg1:T22 Arg2:T24	
+R7	synonym Arg1:T24 Arg2:T23	
+T26	ZT 1033 1035	ZT
+T27	Value 1039 1042	2.4
+E6	Value:T27 temp:T28 spec:T26 cem:T23
+T28	temperature 1046 1051	300 K
+T29	Seebeck 1056 1057	S
+T30	Value 1061 1069	243 μV/K
+E7	Value:T30 spec:T29 temp:T28 cem:T23
+T31	CEM 1096 1125	n-type Bi2Te3/Bi2Te2.83Se0.17
+T32	CEM 1103 1125	Bi2Te3/Bi2Te2.83Se0.17
+R8	synonym Arg1:T31 Arg2:T32	
+T33	ZT 1136 1138	ZT
+T34	Value 1145 1148	1.4
+E8	Value:T34 spec:T33 temp:T35 cem:T32
+T35	temperature 1152 1157	300 K

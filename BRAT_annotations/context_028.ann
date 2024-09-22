@@ -1,0 +1,7 @@
+T1	CEM 633 668	Pt NW on the Pt/Ti electrode system
+T2	CEM 633 638	Pt NW
+R1	synonym Arg1:T2 Arg2:T1	
+T3	Seebeck 605 624	Seebeck coefficient
+T4	Value 690 699	−1.8 μV/K
+E1	Value:T4 temp:T5 cem:T1 spec:T3
+T5	temperature 703 708	300 K

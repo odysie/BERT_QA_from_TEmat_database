@@ -1,0 +1,19 @@
+T1	ElecCond 6 28	electrical resistivity
+T2	CEM 32 47	undoped Co4Sb12
+T3	CEM 40 47	Co4Sb12
+T4	Value 49 56	70 μΩ m
+E1	Value:T4 cem:T3 spec:T1 temp:T7
+T5	CEM 81 87	Bi2Te3
+T6	Value 89 96	10 μΩ m
+E2	Value:T6 temp:T7 cem:T5 spec:T1
+T7	temperature 117 122	300 K
+R1	synonym Arg1:T2 Arg2:T3	
+T8	ElecCond 148 170	electrical resistivity
+T9	CEM 184 198	Fe0.2Co3.8Sb12
+T10	Value 200 207	10 μΩ m
+E3	Value:T10 cem:T9 spec:T8 temp:T14
+T11	CEM 223 238	undoped Co4Sb12
+T12	CEM 231 238	Co4Sb12
+T13	Value 240 247	70 μΩ m
+E4	Value:T13 spec:T8 cem:T11 temp:T14
+T14	temperature 253 258	300 K

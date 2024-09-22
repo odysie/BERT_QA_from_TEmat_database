@@ -1,0 +1,5 @@
+T1	ElecCond 1346 1364	ionic conductivity
+T3	Value 1504 1521	1.6 × 10−6 S cm−1
+E2	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 1525 1530	573 K
+T2	CEM 1368 1384	Li3Co1.06(1)TeO6

@@ -1,0 +1,10 @@
+T1	ElecCond 456 479	electrical conductivity
+T2	ElecCond 448 479	maximum electrical conductivity
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 496 506	14.20 Sm−1
+E1	Value:T3 cem:T7 temp:T6 spec:T1
+T4	PF 511 523	power factor
+T5	Value 527 543	0.313 µW cm−1K−2
+E2	Value:T5 temp:T6 cem:T7 spec:T4
+T6	temperature 547 552	420 K
+T7	CEM 557 578	7.5 wt% Cu-doped MoS2

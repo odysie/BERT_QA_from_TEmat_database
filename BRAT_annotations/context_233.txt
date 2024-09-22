@@ -1,0 +1,1 @@
+Si:P wafers with 3.6±0.3 Ωcm room temperature resistivity and dopant density (1.4 ± 0.1) × 10^15 cm–3 were used. This is just within the low doping regime where the MR is large. The doping density dependence of MR in p-type Si:B was addressed by Schoonus et al..

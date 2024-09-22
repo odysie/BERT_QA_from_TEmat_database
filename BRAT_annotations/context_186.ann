@@ -1,0 +1,25 @@
+T1	CEM 474 480	Bi2Te3
+T2	CEM 474 487	Bi2Te3 alloys
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ZT 493 495	ZT
+T4	Value 498 501	1.0
+E1	Value:T4 spec:T3 temp:T5 cem:T2
+T5	temperature 505 510	300 K
+T6	ZT 845 847	ZT
+T7	Value 850 853	2.4
+E2	Value:T7 spec:T6 temp:T8 cem:T10
+T8	temperature 857 862	300 K
+T10	CEM 867 887	p-type Bi2Te3/Sb2Te3
+T9	CEM 874 887	Bi2Te3/Sb2Te3
+T11	CEM 874 900	Bi2Te3/Sb2Te3 superlattice
+T12	CEM 867 900	p-type Bi2Te3/Sb2Te3 superlattice
+R2	synonym Arg1:T10 Arg2:T9	
+R3	synonym Arg1:T9 Arg2:T12	
+R4	synonym Arg1:T12 Arg2:T11	
+T13	ZT 906 908	ZT
+T14	Value 911 912	3
+E3	Value:T14 spec:T13 temp:T15 cem:T17
+T15	temperature 916 921	550 K
+T16	CEM 926 953	Bi-doped n-type PbSeTe/PbTe
+T17	CEM 926 978	Bi-doped n-type PbSeTe/PbTe quantum-dot superlattice
+R5	synonym Arg1:T16 Arg2:T17	

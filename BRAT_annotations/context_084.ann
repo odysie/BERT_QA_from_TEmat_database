@@ -1,0 +1,12 @@
+T1	ThermCond 1075 1103	lattice thermal conductivity
+T2	ThermCond 1067 1103	minimum lattice thermal conductivity
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 1124 1139	~ 0.58 Wm−1 K−1
+E1	Value:T3 temp:T4 cem:T5 spec:T1
+T4	temperature 1143 1146	623
+T5	CEM 1153 1171	Pb0.9825Sb0.0175Se
+T6	ZT 1436 1438	ZT
+T7	Value 1442 1447	~ 0.9
+E2	Value:T7 spec:T6 cem:T8 temp:T9
+T8	CEM 1465 1479	Pb0.99Sb0.01Se
+T9	temperature 1483 1486	873

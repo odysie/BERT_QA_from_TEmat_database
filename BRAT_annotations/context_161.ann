@@ -1,0 +1,11 @@
+T1	CEM 27 41	non-doped Cu2O
+T2	CEM 37 41	Cu2O
+T3	CEM 583 597	non-doped Cu2O
+T4	CEM 593 597	Cu2O
+R1	synonym Arg1:T3 Arg2:T4	
+R2	synonym Arg1:T1 Arg2:T2	
+T5	temperature 455 460	298 K
+T6	ElecCond 474 485	resistivity
+T7	Value 513 520	130 Ωcm
+E1	Value:T7 cem:T3 spec:T6 temp:T5
+R3	synonym Arg1:T2 Arg2:T4	

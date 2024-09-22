@@ -1,0 +1,23 @@
+T1	CEM 816 841	0.01 wt% of Tl doped PbSe
+T2	Seebeck 856 875	Seebeck coefficient
+T3	Seebeck 848 875	maximum Seebeck coefficient
+T4	Value 879 887	248 μV/K
+E1	Value:T4 temp:T5 spec:T2 cem:T1
+T5	temperature 891 896	723 K
+T6	ZT 910 912	zT
+T7	ZT 902 912	highest zT
+R1	synospec Arg1:T7 Arg2:T6	
+T8	PF 917 929	power factor
+T9	temperature 957 962	723 K
+T10	Value 967 969	∼1
+E2	Value:T10 cem:T1 spec:T6 temp:T9
+T11	Value 974 986	0.98 mW/m.K2
+E3	Value:T11 spec:T8 temp:T9 cem:T1
+T12	CEM 1009 1036	(0.01 wt%) of Tl doped PbSe
+T13	temperature 1040 1056	room temperature
+T14	Seebeck 1058 1077	Seebeck coefficient
+T15	ZT 1079 1081	zT
+T16	Value 1103 1113	82.80 μV/K
+E4	Value:T16 spec:T14 cem:T12 temp:T13
+T17	Value 1115 1119	0.05
+E5	Value:T17 spec:T15 temp:T13 cem:T12

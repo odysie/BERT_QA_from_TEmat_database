@@ -1,0 +1,5 @@
+T1	ZT 261 263	zT
+T2	Value 267 271	~2.2
+E1	Value:T2 temp:T3 spec:T1 cem:T4
+T3	temperature 275 280	820 K
+T4	CEM 297 310	chalcogenides

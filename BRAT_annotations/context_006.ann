@@ -1,0 +1,16 @@
+T1	CEM 401 434	single crystal of La doped SrTiO3
+T2	CEM 419 434	La doped SrTiO3
+R1	synonym Arg1:T1 Arg2:T2	
+T3	PF 471 483	power factor
+T4	PF 485 488	S2σ
+T5	CEM 501 507	Bi2Te3
+T6	temperature 511 527	room temperature
+T7	Value 529 545	2800–3600 μW/K2m
+E1	Value:T7 temp:T6 cem:T5 spec:T3
+R2	synospec Arg1:T3 Arg2:T4	
+E2	Value:T7 temp:T6 spec:T3 cem:T2
+T8	ThermCond 566 586	thermal conductivity
+T9	CEM 590 604	undoped SrTiO3
+T10	Value 619 628	6–12 W/mK
+E3	Value:T10 temp:T11 cem:T9 spec:T8
+T11	temperature 630 661	from room temperature to 1000 K

@@ -1,0 +1,7 @@
+T1	CEM 55 58	PbS
+T2	ZT 74 76	ZT
+T3	ZT 66 76	maximum ZT
+R1	synospec Arg1:T3 Arg2:T2	
+T4	Value 85 89	∼0.4
+E1	Value:T4 temp:T5 spec:T2 cem:T1
+T5	temperature 93 98	800 K

@@ -1,0 +1,5 @@
+. The electrical resistivity of undoped Co4Sb12 (70 μΩ m) is higher than that of Bi2Te3 (10 μΩ m) based materials at 300 K. On Fe substitution, the electrical resistivity decreases in Fe0.2Co3.8Sb12 (10 μΩ m) compared with undoped Co4Sb12 (70 μΩ m) (at 300 K). In Co4Sb12−xTex (x
+= 0.05–0.6) the electrical resistivity decreases from 28 μΩ m to 9 μΩ m, owing to an increase in the carrier concentration with an increase in Te content, and for ρ(T) the behaviour of a degenerate semiconductor was observed. However, for Te substitution in Fe0.2Co3.8Sb12−xTex (x
+= 0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6), two different trends were observed for electrical resistivity. For x
+= 0.1 and x
+= 0.2, the electrical resistivity at 300 K increases to 60 μΩ m and 119 μΩ m, respectively, and at 793 K it decreases to 67 μΩ m and 41 μΩ m, respectively, as in the case of undoped Co4Sb12. The temperature-dependent resistivity behaviour shows a semiconducting nature. For the Te-doped skutterudites, the Fermi level lies between the intrinsic level and conduction. The activation energy was calculated from the temperature dependence resistivity plot as

@@ -1,0 +1,11 @@
+T1	CEM 556 564	Sr3GaSb3
+T2	Seebeck 612 631	Seebeck coefficient
+T3	Value 642 650	200 μV/K
+E1	Value:T3 spec:T2 temp:T4 cem:T5
+T4	temperature 531 547	room temperature
+T5	CEM 556 606	Sr3GaSb3 obtained by modifying the Ca3AlSb3 system
+R1	synonym Arg1:T1 Arg2:T5	
+T6	Value 519 527	200 μV/K
+E2	Value:T6 temp:T4 spec:T8 cem:T7
+T7	CEM 463 471	Ca3AlSb3
+T8	Seebeck 492 511	Seebeck coefficient

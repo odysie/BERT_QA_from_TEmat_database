@@ -1,0 +1,10 @@
+T1	CEM 115 121	FeNbSb
+T2	PF 135 137	PF
+T3	Value 150 165	10.6 mW m-1 K-2
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 191 207	room temperature
+T5	PF 302 304	PF
+T6	Value 308 323	11.7 mW m-1 K-2
+E2	Value:T6 spec:T5 cem:T7 temp:T8
+T7	CEM 328 334	FeNbSb
+T8	temperature 338 343	300 K

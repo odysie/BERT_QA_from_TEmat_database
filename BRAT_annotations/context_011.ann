@@ -1,0 +1,9 @@
+T1	ZT 510 512	zT
+T2	ZT 576 586	maximum zT
+T3	ZT 584 586	zT
+R1	synospec Arg1:T3 Arg2:T2	
+R2	synospec Arg1:T2 Arg2:T1	
+T4	Value 597 600	0.4
+E1	Value:T4 temp:T5 spec:T3 cem:T6
+T5	temperature 616 621	680 K
+T6	CEM 626 643	Sb1.97Ag0.03TeSe2

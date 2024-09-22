@@ -1,0 +1,23 @@
+T1	CEM 28 32	ZnSb
+T2	Value 104 119	1.2·10−3 W/m K2
+E1	Value:T2 cem:T1 spec:T4 temp:T3
+T3	temperature 149 161	300 to 700 K
+T4	PF 90 102	power factor
+T5	CEM 225 231	Zn4Sb3
+T6	Value 233 252	0.7–1.2·10−3 W/m K2
+E2	Value:T6 cem:T5 temp:T3 spec:T4
+T7	ThermCond 407 435	lattice thermal conductivity
+T8	ThermCond 397 435	ultra-low lattice thermal conductivity
+R1	synospec Arg1:T8 Arg2:T7	
+T9	Value 437 449	0.2 Wm−1 K−1
+E3	Value:T9 spec:T7 cem:T17 temp:T10
+T10	temperature 453 458	373 K
+T11	ZT 486 488	ZT
+T12	ZT 469 484	figure of merit
+T13	ZT 469 489	figure of merit (ZT)
+T14	Value 491 494	0.7
+E4	Value:T14 spec:T11 temp:T15 cem:T17
+T15	temperature 498 503	398 K
+T16	CEM 373 379	Bi2Te3
+T17	CEM 373 390	Bi2Te3 TE materia
+R2	synonym Arg1:T16 Arg2:T17	

@@ -1,0 +1,7 @@
+T1	ZT 299 301	ZT
+T2	ZT 291 301	maximum ZT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 311 315	0.66
+E1	Value:T3 spec:T1 cem:T4 temp:T6
+T4	CEM 332 347	Mg2.96Ag0.04Sb2
+T6	temperature 351 356	773 K

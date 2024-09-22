@@ -1,0 +1,25 @@
+T1	CEM 405 429	un-annealed sample PBCSO
+T2	CEM 424 429	PBCSO
+R1	synonym Arg1:T1 Arg2:T2	
+T5	PF 468 470	PF
+T6	Value 474 489	~ 900 mWm-1 K-2
+E1	Value:T6 temp:T7 spec:T5 cem:T2
+T7	temperature 493 498	323 K
+T3	Seebeck 744 745	S
+T4	temperature 749 754	323 K
+T8	Value 769 780	~ 150 μVK-1
+E2	Value:T8 spec:T3 temp:T4 cem:T9
+T9	CEM 789 807	un-annealed PBSCSO
+T10	CEM 801 807	PBSCSO
+R2	synonym Arg1:T9 Arg2:T10	
+T11	Value 811 822	~ 125 μVK-1
+E3	Value:T11 cem:T12 temp:T4 spec:T3
+T12	CEM 831 841	PBCSO-A-5D
+T13	ElecCond 1497 1498	σ
+T14	CEM 1503 1508	PBCSO
+T15	Value 1513 1524	~ 415 Scm-1
+E4	Value:T15 cem:T14 temp:T16 spec:T13
+T16	temperature 1528 1533	323 K
+T17	Value 1554 1565	~ 575 Scm-1
+E5	Value:T17 temp:T18 cem:T14 spec:T13
+T18	temperature 1570 1580	PBCSO-A-1D

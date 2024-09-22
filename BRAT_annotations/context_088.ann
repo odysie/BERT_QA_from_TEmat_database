@@ -1,0 +1,7 @@
+T1	CEM 600 607	FeSb1.9
+T2	ThermCond 611 612	κ
+T3	ThermCond 611 616	κ (T)
+R1	synospec Arg1:T3 Arg2:T2	
+T4	Value 634 643	2.4 W/K-m
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 659 664	∼50 K

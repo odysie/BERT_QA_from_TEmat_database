@@ -1,0 +1,7 @@
+T1	temperature 227 232	600 K
+T2	ThermCond 249 277	lattice thermal conductivity
+T3	CEM 281 287	GaGeTe
+T4	CEM 281 297	GaGeTe monolayer
+T5	Value 302 315	28.23 Wm−1K−1
+E1	Value:T5 cem:T3 spec:T2 temp:T1
+R1	synonym Arg1:T4 Arg2:T3	

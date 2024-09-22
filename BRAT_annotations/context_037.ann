@@ -1,0 +1,5 @@
+T1	CEM 1034 1054	Bi1.5Sb0.5Te1.8Se1.2
+T2	Seebeck 1091 1110	Seebeck coefficient
+T3	Value 1127 1136	−400 μV/K
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 1140 1156	room temperature

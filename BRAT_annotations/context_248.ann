@@ -1,0 +1,27 @@
+T1	ZT 276 278	zT
+T2	Value 282 285	1.4
+E1	Value:T2 spec:T1 temp:T3 cem:T4
+T3	temperature 289 294	550 K
+T4	CEM 308 326	AgSbTe2 with 2% Se
+T5	CEM 520 532	Sb2Te3/Ag2Te
+T6	CEM 520 543	Sb2Te3/Ag2Te composites
+T7	CEM 520 573	Sb2Te3/Ag2Te composites fabricated using ball milling
+R1	synonym Arg1:T5 Arg2:T6	
+R2	synonym Arg1:T6 Arg2:T7	
+T8	ZT 605 607	zT
+T9	Value 614 617	1.5
+E2	Value:T9 spec:T8 temp:T10 cem:T7
+T10	temperature 621 626	700 K
+T11	CEM 632 645	AgSbTe2/Ag2Te
+T12	CEM 632 661	AgSbTe2/Ag2Te quenched ingots
+R3	synonym Arg1:T11 Arg2:T12	
+T13	Value 670 673	1.5
+E3	Value:T13 temp:T14 cem:T12 spec:T8
+T14	temperature 677 682	500 K
+T15	CEM 1070 1083	Bi0.5Sb1.5Te3
+T16	CEM 1055 1083	nanostructured Bi0.5Sb1.5Te3
+R4	synonym Arg1:T16 Arg2:T15	
+T17	ZT 1095 1097	zT
+T18	Value 1104 1105	1
+E4	Value:T18 spec:T17 temp:T19 cem:T15
+T19	temperature 1109 1125	room temperature

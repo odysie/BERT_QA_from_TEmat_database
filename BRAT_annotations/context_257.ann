@@ -1,0 +1,7 @@
+T1	Value 598 602	0.64
+E1	Value:T1 temp:T2 cem:T4 spec:T5
+T2	temperature 606 611	823 K
+T3	CEM 628 639	SnS0.2Se0.8
+T4	CEM 616 639	composition SnS0.2Se0.8
+R1	synonym Arg1:T4 Arg2:T3	
+T5	ZT 494 496	ZT

@@ -1,0 +1,15 @@
+T1	CEM 256 267	Mn1.03Bi4S7
+T2	ElecCond 269 270	σ
+T3	Value 291 308	7.25 × 10^3 S m−1
+E1	Value:T3 spec:T2 cem:T1 temp:T4
+T4	temperature 312 317	300 K
+T5	Value 321 332	1.58 × 10^3
+E2	Value:T5 cem:T1 temp:T6 spec:T2
+T6	temperature 336 341	770 K
+T7	ElecCond 361 362	σ
+T8	temperature 363 373	near 300 K
+T9	Value 400 417	1.73 × 10^4 S m−1
+E3	Value:T9 cem:T10 temp:T8 spec:T7
+T10	CEM 422 444	S-deficient MnBi4S6.86
+T11	CEM 422 451	S-deficient MnBi4S6.86 sample
+R1	synonym Arg1:T11 Arg2:T10	

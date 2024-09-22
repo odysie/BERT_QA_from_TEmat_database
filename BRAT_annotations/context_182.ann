@@ -1,0 +1,10 @@
+T1	CEM 1073 1082	Bi2T3 NTs
+T2	Seebeck 1096 1097	S
+T3	Value 1104 1112	160 μV/K
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 1116 1121	300 K
+T5	ZT 828 830	ZT
+T6	Value 838 858	greater than 4 and 6
+E2	Value:T6 spec:T5 cem:T7 temp:T8
+T7	CEM 877 930	5-nm diameter PbSe/PbS and PbTe/PbSe superlattice NWs
+T8	temperature 934 938	77 K

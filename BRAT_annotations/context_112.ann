@@ -1,0 +1,12 @@
+T1	CEM 849 858	BaErMn2O6
+T2	CEM 840 858	Oxidized BaErMn2O6
+R1	synonym Arg1:T2 Arg2:T1	
+T3	ElecCond 881 904	electrical conductivity
+T4	Value 913 923	0.2 S cm−1
+E1	Value:T4 temp:T5 spec:T3 cem:T1
+T5	temperature 927 943	room temperature
+T6	CEM 1187 1196	BaErMn2O6
+T7	ElecCond 1219 1231	conductivity
+T8	Value 1242 1251	40 S cm−1
+E2	Value:T8 temp:T9 spec:T7 cem:T6
+T9	temperature 1257 1263	500 °C

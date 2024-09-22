@@ -1,0 +1,7 @@
+T1	CEM 370 375	Co3O4
+T2	CEM 370 381	Co3O4 oxide
+R1	synonym Arg1:T2 Arg2:T1	
+T3	Value 391 409	1.96 × 10−5 S cm−1
+E1	Value:T3 cem:T2 temp:T4 spec:T5
+T4	temperature 413 429	room temperature
+T5	ElecCond 343 366	electrical conductivity

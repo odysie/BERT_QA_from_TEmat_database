@@ -1,0 +1,5 @@
+T1	temperature 315 319	300K
+T2	ElecCond 293 305	conductivity
+T3	CEM 375 382	Mn2CoAl
+T4	Value 389 398	2440 S/cm
+E1	Value:T4 cem:T3 temp:T1 spec:T2

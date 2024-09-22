@@ -1,0 +1,17 @@
+T1	CEM 529 536	Ag2+xSe
+T2	ZT 467 469	ZT
+T3	Value 476 489	higher than 1
+E1	Value:T3 spec:T2 cem:T1 temp:T4
+T4	temperature 495 509	300 K to 600 K
+T5	PF 1381 1383	PF
+T6	Value 1393 1408	2231.5 μWm−1K−2
+E2	Value:T6 spec:T5 temp:T7 cem:T8
+T7	temperature 1412 1417	300 K
+T8	CEM 1467 1475	CuAg4Se3
+T9	CEM 1467 1491	CuAg4Se3 composite films
+R1	synonym Arg1:T8 Arg2:T9	
+T10	CEM 957 1028	accurately controlled stoichiometric Ag2Se thin film on glass substrate
+T11	Value 1043 1064	2440 ± 192 μW m−1 K−2
+E3	Value:T11 temp:T12 cem:T10 spec:T13
+T12	temperature 1068 1084	room temperature
+T13	PF 945 947	PF

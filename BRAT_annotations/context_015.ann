@@ -1,0 +1,9 @@
+T1	ZT 131 138	high zT
+T2	ZT 136 138	zT
+R1	synospec Arg1:T1 Arg2:T2	
+T3	Value 142 145	1.5
+E1	Value:T3 temp:T4 spec:T2 cem:T6
+T4	temperature 149 154	900 K
+T5	CEM 165 179	Pb0.92Sr0.08Se
+T6	CEM 158 179	p-type Pb0.92Sr0.08Se
+R2	synonym Arg1:T5 Arg2:T6	

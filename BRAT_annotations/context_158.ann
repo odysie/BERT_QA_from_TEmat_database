@@ -1,0 +1,9 @@
+T1	ZT 97 99	zT
+T2	ZT 89 99	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 103 107	0.86
+E1	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 111 116	873 K
+T5	CEM 137 152	BiCuSe0.8Te0.2O
+T6	CEM 137 159	BiCuSe0.8Te0.2O sample
+R2	synonym Arg1:T5 Arg2:T6	

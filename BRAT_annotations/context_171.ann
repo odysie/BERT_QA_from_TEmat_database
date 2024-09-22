@@ -1,0 +1,13 @@
+T1	ZT 196 211	figure of merit
+T2	ZT 213 215	ZT
+T3	ZT 188 216	maximum figure of merit (ZT)
+T4	ZT 188 211	maximum figure of merit
+R1	synospec Arg1:T4 Arg2:T3	
+R2	synospec Arg1:T3 Arg2:T1	
+R3	synospec Arg1:T1 Arg2:T2	
+T5	Value 220 224	0.35
+E1	Value:T5 spec:T2 temp:T8 cem:T6
+T6	CEM 241 247	BiTeBr
+T7	CEM 241 256	BiTeBr specimen
+R4	synonym Arg1:T6 Arg2:T7	
+T8	temperature 260 265	560 K

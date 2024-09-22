@@ -1,0 +1,5 @@
+T1	ZT 1088 1090	ZT
+T2	Value 1092 1097	~1.37
+E1	Value:T2 spec:T1 cem:T3 temp:T4
+T3	CEM 1102 1126	Hf0.5Zr0.5NiSn0.98Sb0.02
+T4	temperature 1162 1168	1000 K

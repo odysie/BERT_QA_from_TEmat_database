@@ -1,0 +1,20 @@
+T1	ElecCond 403 426	electrical conductivity
+T2	CEM 430 436	LaFeO3
+T3	temperature 440 446	560 °C
+T4	Value 466 476	0.39S cm−1
+E1	Value:T4 temp:T3 cem:T2 spec:T1
+T5	Value 509 519	0.36S cm−1
+E2	Value:T5 cem:T7 temp:T3 spec:T1
+T6	CEM 529 535	LaFeO3
+T7	CEM 524 535	bulk LaFeO3
+R1	synonym Arg1:T7 Arg2:T6	
+T8	CEM 562 568	LaMnO3
+T9	ElecCond 580 592	conductivity
+T10	Value 596 606	4.80S cm−1
+E3	Value:T10 temp:T11 spec:T9 cem:T8
+T11	temperature 609 615	560 °C
+T12	Value 635 646	∼5.5 S cm−1
+E4	Value:T12 cem:T14 temp:T11 spec:T9
+T13	CEM 679 738	films prepared on Al2O3 substrates using the sol–gel method
+T14	CEM 679 713	films prepared on Al2O3 substrates
+R2	synonym Arg1:T14 Arg2:T13	

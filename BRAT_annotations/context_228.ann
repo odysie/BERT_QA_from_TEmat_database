@@ -1,0 +1,16 @@
+T1	CEM 209 223	undoped CaMnO3
+T2	CEM 217 223	CaMnO3
+R1	synonym Arg1:T1 Arg2:T2	
+T3	temperature 227 244	room temperature.
+T4	Value 176 188	50 μW m-1K-2
+E1	Value:T4 cem:T1 temp:T3 spec:T6
+T5	PF 4 16	power factor
+T6	PF 18 21	σS2
+R2	synospec Arg1:T5 Arg2:T6	
+T7	PF 4 22	power factor (σS2)
+R3	synospec Arg1:T7 Arg2:T6	
+T8	Value 86 98	45 μW m-1K-2
+E2	Value:T8 temp:T9 spec:T6 cem:T1
+T9	temperature 100 106	500 °C
+T10	Value 143 155	60 μW m-1K-2
+E3	Value:T10 cem:T1 spec:T6 temp:T3

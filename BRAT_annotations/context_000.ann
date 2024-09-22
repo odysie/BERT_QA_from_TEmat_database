@@ -1,0 +1,10 @@
+T1	Seebeck 832 851	Seebeck coefficient
+T2	CEM 855 859	ZnSb
+T3	Value 872 892	200 μV/K to 400 μV/K
+E1	Value:T3 cem:T2 spec:T1 temp:T4
+T4	temperature 896 912	room temperature
+T5	CEM 1008 1014	Zn4Sb3
+T6	Seebeck 1016 1017	α
+T7	Value 1021 1036	around 100 μV/K
+E2	Value:T7 temp:T8 spec:T6 cem:T5
+T8	temperature 1040 1056	room temperature

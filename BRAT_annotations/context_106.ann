@@ -1,0 +1,5 @@
+T1	ZT 812 814	ZT
+T2	CEM 818 864	Bi0.4Sb1.6Te3 bulk material with 0.1 wt.% CNTs
+T3	Value 868 872	1.42
+E1	Value:T3 temp:T4 cem:T2 spec:T1
+T4	temperature 876 881	373 K

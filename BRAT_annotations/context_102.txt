@@ -1,0 +1,1 @@
+Extrapolated values of ZT are 0.24 at 850 K for ScNiSb and 0.25 at 720 K for TmNiSb.

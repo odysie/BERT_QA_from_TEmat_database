@@ -1,0 +1,10 @@
+T1	ZT 1044 1046	ZT
+T2	CEM 1060 1070	CoCp2@SWNT
+T3	CEM 1060 1075	CoCp2@SWNT film
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 1077 1082	0.157
+E1	Value:T4 temp:T5 cem:T3 spec:T1
+T5	temperature 1086 1091	320 K
+T6	CEM 1126 1135	SWNT film
+T7	Value 1137 1142	0.025
+E2	Value:T7 cem:T6 temp:T5 spec:T1

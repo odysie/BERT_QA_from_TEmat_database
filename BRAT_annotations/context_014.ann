@@ -1,0 +1,28 @@
+T1	CEM 440 475	27-μm-thick Bi1.88Te2.70Se0.42 film
+T2	CEM 452 475	Bi1.88Te2.70Se0.42 film
+T3	CEM 440 470	27-μm-thick Bi1.88Te2.70Se0.42
+T4	CEM 452 470	Bi1.88Te2.70Se0.42
+R1	synonym Arg1:T4 Arg2:T2	
+R2	synonym Arg1:T4 Arg2:T1	
+R3	synonym Arg1:T1 Arg2:T3	
+T5	Seebeck 482 501	Seebeck coefficient
+T6	Value 505 513	−50 μV/K
+E1	Value:T6 temp:T9 spec:T5 cem:T1
+T7	PF 520 531	power facto
+T8	Value 536 547	130 μW/m·K2
+E2	Value:T8 temp:T9 spec:T7 cem:T3
+T9	temperature 551 567	room temperature
+T10	CEM 1064 1089	p-type Bi0.45Sb1.22Te3.33
+T11	CEM 1071 1089	Bi0.45Sb1.22Te3.33
+T12	CEM 1064 1094	p-type Bi0.45Sb1.22Te3.33 film
+T13	CEM 1071 1094	Bi0.45Sb1.22Te3.33 film
+R4	synonym Arg1:T11 Arg2:T13	
+R5	synonym Arg1:T13 Arg2:T12	
+R6	synonym Arg1:T11 Arg2:T10	
+T14	Seebeck 1210 1229	Seebeck coefficient
+T15	Value 1233 1242	+150 μV/K
+E3	Value:T15 spec:T14 temp:T18 cem:T11
+T16	PF 1249 1260	power facto
+T17	Value 1265 1276	150 μW/m·K2
+E4	Value:T17 temp:T18 spec:T16 cem:T13
+T18	temperature 1280 1296	room temperature

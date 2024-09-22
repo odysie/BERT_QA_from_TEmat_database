@@ -1,0 +1,7 @@
+T1	ZT 410 412	zT
+T2	ZT 402 412	maximum zT
+R1	synospec Arg1:T2 Arg2:T1	
+T3	Value 416 420	∼2.2
+E1	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 436 441	820 K
+T5	CEM 460 500	Mg0.08Pb0.92Te0.8Se0.2 with 2% Na doping

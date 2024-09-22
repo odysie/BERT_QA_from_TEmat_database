@@ -1,0 +1,30 @@
+T1	CEM 305 327	ZrCoBi0.65Sb0.15Sn0.20
+T2	ZT 429 431	ZT
+T3	ZT 424 431	peak ZT
+T4	ZT 412 431	record-high peak ZT
+R1	synospec Arg1:T4 Arg2:T3	
+R2	synospec Arg1:T3 Arg2:T2	
+T5	Value 435 440	~1.42
+E1	Value:T5 temp:T6 spec:T2 cem:T1
+T6	temperature 444 449	973 K
+T7	ZT 471 481	average ZT
+T8	ZT 479 481	ZT
+R3	synospec Arg1:T7 Arg2:T8	
+T9	temperature 552 564	300 to 973 K
+T10	CEM 572 594	ZrCoBi0.65Sb0.15Sn0.20
+T11	ZT 628 630	ZT
+T12	Value 634 639	~0.81
+E2	Value:T12 cem:T10 temp:T9 spec:T11
+T13	Value 656 661	~0.69
+E3	Value:T13 cem:T14 temp:T9 spec:T11
+T14	CEM 666 682	Nb0.88Hf0.12FeSb
+T15	Value 684 689	~0.57
+E4	Value:T15 cem:T16 temp:T9 spec:T11
+T16	CEM 694 708	Nb0.8Ti0.2FeSb
+T17	Value 710 715	~0.54
+E5	Value:T17 cem:T18 spec:T11 temp:T9
+T18	CEM 720 748	Hf0.44Zr0.44Ti0.12Sb0.8Sn0.2
+T19	Value 754 759	~0.53
+E6	Value:T19 cem:T20 temp:T9 spec:T11
+T20	CEM 764 786	Hf0.8Ti0.2CoSb0.8Sn0.2
+R4	synospec Arg1:T8 Arg2:T11	

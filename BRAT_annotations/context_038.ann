@@ -1,0 +1,5 @@
+T1	CEM 727 751	Fe0.25Co0.75Sb2.99Bi0.01
+T2	temperature 805 807	RT
+T3	ElecCond 808 809	σ
+T4	Value 810 824	~10 × 10^4 S/m
+E1	Value:T4 spec:T3 temp:T2 cem:T1

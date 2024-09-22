@@ -1,0 +1,15 @@
+T1	Seebeck 632 651	Seebeck coefficient
+T2	Seebeck 624 651	maximum Seebeck coefficient
+R1	synospec Arg1:T2 Arg2:T1	
+T4	Value 674 685	249.41 μV/K
+E2	Value:T4 temp:T3 spec:T2 cem:T8
+T3	temperature 667 672	500 K
+T5	PF 690 701	power facto
+T6	PF 704 707	S2σ
+T7	PF 690 708	power factor (S2σ)
+R2	synospec Arg1:T5 Arg2:T7	
+R3	synospec Arg1:T7 Arg2:T6	
+T8	CEM 712 718	TaCoSn
+T9	Value 722 741	2.22 × 10^12 W/msK2
+E1	Value:T9 temp:T10 cem:T8 spec:T5
+T10	temperature 745 751	1000 K

@@ -1,0 +1,15 @@
+T1	temperature 293 309	room temperature
+T2	ElecCond 310 335	electrical conductivities
+T3	CEM 339 346	DyCuTe2
+T4	CEM 351 358	ErCuTe2
+T5	Value 392 401	12.5 S/cm
+E1	Value:T5 cem:T3 spec:T2 temp:T1
+T6	Value 406 413	50 S/cm
+E2	Value:T6 cem:T4 spec:T2 temp:T1
+T7	ZT 1027 1029	zT
+T8	ZT 1019 1029	maximum zT
+R1	synospec Arg1:T8 Arg2:T7	
+T9	Value 1033 1037	0.21
+E3	Value:T9 spec:T7 temp:T10 cem:T11
+T10	temperature 1041 1046	540 K
+T11	CEM 1051 1062	GdCu1.25Te2

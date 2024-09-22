@@ -1,0 +1,5 @@
+T1	CEM 1254 1261	Cu4SnS4
+T2	ElecCond 1296 1297	σ
+T3	Value 1301 1308	70 S/cm
+E1	Value:T3 temp:T4 spec:T2 cem:T1
+T4	temperature 1312 1328	room temperature

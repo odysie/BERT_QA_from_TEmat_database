@@ -1,0 +1,18 @@
+T1	ThermCond 107 133	total thermal conductivity
+T2	CEM 145 152	BiCuSeO
+T3	CEM 137 152	undoped BiCuSeO
+R1	synonym Arg1:T3 Arg2:T2	
+T4	Value 196 210	0.89 W m-1 K-1
+E1	Value:T4 temp:T5 cem:T2 spec:T1
+T5	temperature 214 219	300 K
+T6	Value 223 237	0.45 W m-1 K-1
+E2	Value:T6 temp:T7 cem:T2 spec:T1
+T7	temperature 241 246	923 K
+T8	CEM 1459 1466	BiCuSeO
+T9	ThermCond 1484 1512	lattice thermal conductivity
+T10	Value 1516 1530	0.88 W m-1 K-1
+E3	Value:T10 temp:T11 spec:T9 cem:T8
+T11	temperature 1534 1539	300 K
+T12	Value 1544 1558	0.43 W m-1 K-1
+E4	Value:T12 temp:T13 spec:T9 cem:T8
+T13	temperature 1562 1567	923 K

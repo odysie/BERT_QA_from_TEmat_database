@@ -1,0 +1,11 @@
+T1	ElecCond 1075 1106	highest electrical conductivity
+T2	ElecCond 1083 1106	electrical conductivity
+T3	ElecCond 1094 1106	conductivity
+T4	Value 1108 1117	0.24 S/cm
+E1	Value:T4 spec:T3 temp:T7 cem:T8
+T5	Seebeck 1123 1142	Seebeck coefficient
+T6	Value 1144 1152	485 μV/K
+E2	Value:T6 spec:T5 temp:T7 cem:T9
+T7	temperature 1157 1173	room temperature
+T8	CEM 1197 1211	CuMn0.9Mg0.2O2
+T9	CEM 1216 1234	CuMn0.975Ca0.025O2

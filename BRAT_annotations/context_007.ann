@@ -1,0 +1,23 @@
+T1	ZT 1217 1219	ZT
+T2	Value 1223 1227	0.38
+E1	Value:T2 spec:T1 cem:T4 temp:T3
+T3	temperature 1231 1237	1000 K
+T4	CEM 1242 1290	La doped STO assisted with inclusion of graphene
+T5	ZT 1316 1318	ZT
+T6	Value 1322 1326	0.37
+E2	Value:T6 spec:T5 temp:T7 cem:T8
+T7	temperature 1330 1336	1000 K
+T8	CEM 1341 1357	SrTi0.85Nb0.15O3
+T9	ZT 1383 1385	ZT
+T10	Value 1389 1393	0.40
+E3	Value:T10 spec:T9 cem:T11 temp:T7
+T11	CEM 1398 1427	A-site deficient La doped STO
+T12	CEM 1429 1443	La0.2Sr0.7TiO3
+T13	CEM 1398 1444	A-site deficient La doped STO (La0.2Sr0.7TiO3)
+T14	CEM 1446 1462	Dy doping of STO
+T15	ZT 1473 1475	ZT
+T16	Value 1479 1483	0.41
+E4	Value:T16 temp:T17 spec:T15 cem:T14
+T17	temperature 1487 1493	1073 K
+R1	synonym Arg1:T11 Arg2:T13	
+R2	synonym Arg1:T13 Arg2:T12	

@@ -1,0 +1,18 @@
+T1	ElecCond 283 308	electrical conductivities
+T2	Value 350 362	12.85 S cm-1
+E1	Value:T2 spec:T1 temp:T4 cem:T5
+T3	Value 422 433	6.46 S cm-1
+E2	Value:T3 spec:T1 temp:T4 cem:T5
+T4	temperature 438 443	773 K
+T5	CEM 448 458	SnSe:Bi 8%
+T6	CEM 448 465	SnSe:Bi 8% sample
+R1	synonym Arg1:T5 Arg2:T6	
+T7	Value 537 552	0.81 W m- 1 K-1
+E3	Value:T7 spec:T1 temp:T9 cem:T10
+T8	Value 612 626	0.60 W m-1 K-1
+E4	Value:T8 temp:T9 cem:T10 spec:T1
+T9	temperature 631 636	773 K
+T10	CEM 641 651	SnSe:Bi 8%
+T11	CEM 641 658	SnSe:Bi 8% sample
+R2	synonym Arg1:T10 Arg2:T11	
+R3	synonym Arg1:T11 Arg2:T6	

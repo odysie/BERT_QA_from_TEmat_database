@@ -1,0 +1,12 @@
+T1	ZT 991 993	ZT
+T2	Value 1004 1008	∼1.2
+E1	Value:T2 spec:T1 cem:T5 temp:T4
+T3	Value 1013 1017	∼1.1
+E2	Value:T3 spec:T1 temp:T4 cem:T7
+T4	temperature 1021 1024	923
+T5	CEM 1038 1059	Pb0.975Na0.025S-3%SrS
+T6	CEM 1031 1059	p-type Pb0.975Na0.025S-3%SrS
+R1	synonym Arg1:T6 Arg2:T5	
+T7	CEM 1064 1093	n-type PbS0.98Cl0.02–1% Bi2S3
+T8	CEM 1071 1093	PbS0.98Cl0.02–1% Bi2S3
+R2	synonym Arg1:T8 Arg2:T7	

@@ -1,0 +1,18 @@
+T1	ElecCond 163 185	electrical resistivity
+T2	Value 187 195	4–60 μΩm
+E1	Value:T2 temp:T3 spec:T1 cem:T6
+T3	temperature 199 209	300–1000 K
+T4	Seebeck 246 265	Seebeck coefficient
+T5	Value 267 278	40–160 μV/K
+E2	Value:T5 cem:T6 spec:T4 temp:T3
+T6	CEM 296 302	RENiSb
+T7	CEM 296 312	RENiSb ternaries
+T8	PF 326 354	thermoelectric power factors
+T9	temperature 358 363	750 K
+T10	Value 372 385	14 μW K−2cm−1
+E3	Value:T10 cem:T11 temp:T9 spec:T8
+T11	CEM 390 396	ScNiSb
+T12	Value 401 414	11 μW K−2cm−1
+E4	Value:T12 cem:T13 temp:T9 spec:T8
+T13	CEM 419 425	TmNiSb
+R1	synonym Arg1:T6 Arg2:T7	
